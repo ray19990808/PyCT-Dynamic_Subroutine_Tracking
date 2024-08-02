@@ -1,0 +1,15 @@
+{
+	"/home/jack/coverage/transformers/src/transformers/tokenization_utils_base.py": {
+		"PreTrainedTokenizerBase.pad": {
+			"encoded_inputs": "NOT_PRIMITIVE",
+			"padding": true,
+			"return_tensors": "np"
+		}
+	},
+	"/home/jack/coverage/transformers/src/transformers/audio_utils.py": {
+		"window_function": {
+			"window_length": 16,
+			"name": "hann"
+		}
+	}
+}

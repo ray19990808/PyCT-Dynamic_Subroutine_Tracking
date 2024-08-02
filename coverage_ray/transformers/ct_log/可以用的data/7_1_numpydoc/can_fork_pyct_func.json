@@ -1,0 +1,1944 @@
+{
+	"/usr/lib/python3.8/_collections_abc.py": {
+		"Mapping.get": {
+			"self": "NOT_PRIMITIVE",
+			"key": "PYTEST_VERSION",
+			"default": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pluggy/_tracing.py": {
+		"TagTracerSub.get": {
+			"self": "NOT_PRIMITIVE",
+			"name": "pluginmanage"
+		}
+	},
+	"/usr/lib/python3.8/functools.py": {
+		"lru_cache": {
+			"maxsize": 256,
+			"typed": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/config/__init__.py": {
+		"PytestPluginManager.parse_hookspec_opts": {
+			"self": "NOT_PRIMITIVE",
+			"module_or_class": "NOT_PRIMITIVE",
+			"name": "Any"
+		},
+		"PytestPluginManager.parse_hookimpl_opts": {
+			"self": "NOT_PRIMITIVE",
+			"plugin": "NOT_PRIMITIVE",
+			"name": "__class__"
+		},
+		"PytestPluginManager.consider_preparse": {
+			"self": "NOT_PRIMITIVE",
+			"args": "NOT_PRIMITIVE",
+			"exclude_only": true
+		},
+		"PytestPluginManager.import_plugin": {
+			"self": "NOT_PRIMITIVE",
+			"modname": "mark",
+			"consider_entry_points": false
+		},
+		"Config.parse": {
+			"self": "NOT_PRIMITIVE",
+			"args": "NOT_PRIMITIVE",
+			"addopts": true
+		},
+		"Config.getini": {
+			"self": "NOT_PRIMITIVE",
+			"name": "addopts"
+		},
+		"Config.getoption": {
+			"self": "NOT_PRIMITIVE",
+			"name": "cacheclear",
+			"default": "NOT_PRIMITIVE",
+			"skip": false
+		},
+		"Config.addinivalue_line": {
+			"self": "NOT_PRIMITIVE",
+			"name": "markers",
+			"line": "anyio: mark the (coroutine function) test to be run asynchronously via anyio."
+		},
+		"Config.getvalue": {
+			"self": "NOT_PRIMITIVE",
+			"name": "trace",
+			"path": "NOT_PRIMITIVE"
+		},
+		"Config.get_verbosity": {
+			"self": "NOT_PRIMITIVE",
+			"verbosity_type": "test_cases"
+		},
+		"PytestPluginManager.getplugin": {
+			"self": "NOT_PRIMITIVE",
+			"name": "capturemanager"
+		},
+		"Config.cwd_relative_nodeid": {
+			"self": "NOT_PRIMITIVE",
+			"nodeid": ".local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_main.py::test_renders_package_docstring"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pluggy/_manager.py": {
+		"PluginManager.parse_hookspec_opts": {
+			"self": "NOT_PRIMITIVE",
+			"module_or_class": "NOT_PRIMITIVE",
+			"name": "Any"
+		},
+		"PluginManager.parse_hookimpl_opts": {
+			"self": "NOT_PRIMITIVE",
+			"plugin": "NOT_PRIMITIVE",
+			"name": "pytest_configure"
+		},
+		"PluginManager.is_blocked": {
+			"self": "NOT_PRIMITIVE",
+			"name": "mark"
+		},
+		"PluginManager.get_plugin": {
+			"self": "NOT_PRIMITIVE",
+			"name": "mark"
+		},
+		"PluginManager.load_setuptools_entrypoints": {
+			"self": "NOT_PRIMITIVE",
+			"group": "pytest11",
+			"name": "NOT_PRIMITIVE"
+		},
+		"PluginManager.has_plugin": {
+			"self": "NOT_PRIMITIVE",
+			"name": "tmpdir"
+		}
+	},
+	"/usr/lib/python3.8/inspect.py": {
+		"Signature.from_callable": {
+			"obj": "NOT_PRIMITIVE",
+			"follow_wrapped": true
+		},
+		"formatannotation": {
+			"annotation": "object",
+			"base_module": "NOT_PRIMITIVE"
+		},
+		"getmodule": {
+			"object": "NOT_PRIMITIVE",
+			"_filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_validate.py"
+		},
+		"BlockFinder.tokeneater": {
+			"self": "NOT_PRIMITIVE",
+			"type": 1,
+			"token": "class",
+			"srowcol": "NOT_PRIMITIVE",
+			"erowcol": "NOT_PRIMITIVE",
+			"line": "class DecoratorClass:\n"
+		},
+		"getattr_static": {
+			"obj": "NOT_PRIMITIVE",
+			"attr": "test_one_liner",
+			"default": "NOT_PRIMITIVE"
+		},
+		"getabsfile": {
+			"object": "NOT_PRIMITIVE",
+			"_filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_docscrape.py"
+		},
+		"cleandoc": {
+			"doc": "\n        Dummy class.\n\n        Notes\n        -----\n        First note.\n\n        Notes\n        -----\n        Second note.\n\n        "
+		},
+		"indentsize": {
+			"line": "    class Dummy:\n"
+		}
+	},
+	"/usr/lib/python3.8/pathlib.py": {
+		"_PosixFlavour.splitroot": {
+			"self": "NOT_PRIMITIVE",
+			"part": "/home/soslab/pyct-coverage/coverage_ray/transformers",
+			"sep": "/"
+		},
+		"_Flavour.join_parsed_parts": {
+			"self": "NOT_PRIMITIVE",
+			"drv": "",
+			"root": "/",
+			"parts": "NOT_PRIMITIVE",
+			"drv2": "",
+			"root2": "",
+			"parts2": "NOT_PRIMITIVE"
+		},
+		"PurePath.joinpath": {
+			"self": "NOT_PRIMITIVE",
+			"*args": [
+				"entry_points.txt"
+			]
+		},
+		"Path.read_text": {
+			"self": "NOT_PRIMITIVE",
+			"encoding": "utf-8",
+			"errors": "NOT_PRIMITIVE"
+		},
+		"Path.open": {
+			"self": "NOT_PRIMITIVE",
+			"mode": "r",
+			"buffering": -1,
+			"encoding": "utf-8",
+			"errors": "NOT_PRIMITIVE",
+			"newline": "NOT_PRIMITIVE"
+		},
+		"PurePath.with_suffix": {
+			"self": "NOT_PRIMITIVE",
+			"suffix": ".py"
+		},
+		"Path.glob": {
+			"self": "NOT_PRIMITIVE",
+			"pattern": "test*"
+		},
+		"_PosixFlavour.compile_pattern": {
+			"self": "NOT_PRIMITIVE",
+			"pattern": "test*"
+		},
+		"Path.resolve": {
+			"self": "NOT_PRIMITIVE",
+			"strict": false
+		},
+		"_NormalAccessor.readlink": {
+			"self": "NOT_PRIMITIVE",
+			"path": "/tmp"
+		},
+		"Path.mkdir": {
+			"self": "NOT_PRIMITIVE",
+			"mode": 448,
+			"parents": false,
+			"exist_ok": true
+		},
+		"Path.unlink": {
+			"self": "NOT_PRIMITIVE",
+			"missing_ok": false
+		},
+		"Path.symlink_to": {
+			"self": "NOT_PRIMITIVE",
+			"target": "NOT_PRIMITIVE",
+			"target_is_directory": false
+		},
+		"_NormalAccessor.symlink": {
+			"a": "NOT_PRIMITIVE",
+			"b": "NOT_PRIMITIVE",
+			"target_is_directory": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/deprecated.py": {
+		"check_ispytest": {
+			"ispytest": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/assertion/__init__.py": {
+		"DummyRewriteHook.mark_rewrite": {
+			"self": "NOT_PRIMITIVE",
+			"*args": [
+				"_pytest.mark"
+			]
+		},
+		"pytest_assertrepr_compare": {
+			"config": "NOT_PRIMITIVE",
+			"op": "==",
+			"left": "[FIRST_NO_CONSTR]: After First execution, no constr to solve",
+			"right": ""
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/config/argparsing.py": {
+		"Parser.getgroup": {
+			"self": "NOT_PRIMITIVE",
+			"name": "general",
+			"description": "",
+			"after": "NOT_PRIMITIVE"
+		},
+		"OptionGroup.addoption": {
+			"self": "NOT_PRIMITIVE",
+			"*args": [
+				"--markers"
+			],
+			"action": "store_true",
+			"help": "show markers (builtin, plugin and per-project ones)."
+		},
+		"Parser.addini": {
+			"self": "NOT_PRIMITIVE",
+			"name": "markers",
+			"help": "Register new markers for test functions",
+			"type": "linelist",
+			"default": "NOT_PRIMITIVE"
+		},
+		"get_ini_default_for_type": {
+			"type": "linelist"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_virtualenv.py": {
+		"_Finder.find_spec": {
+			"self": "NOT_PRIMITIVE",
+			"fullname": "_pytest.helpconfig",
+			"path": "NOT_PRIMITIVE",
+			"target": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/pyct-coverage/coverage_ray/transformers/<frozen importlib._bootstrap>": {
+		"FrozenImporter.find_spec": {
+			"fullname": "_pytest.helpconfig",
+			"path": "NOT_PRIMITIVE",
+			"target": "NOT_PRIMITIVE"
+		},
+		"spec_from_loader": {
+			"name": "_elementtree",
+			"loader": "NOT_PRIMITIVE",
+			"origin": "built-in",
+			"is_package": "NOT_PRIMITIVE"
+		},
+		"FrozenImporter.is_package": {
+			"fullname": "_elementtree"
+		}
+	},
+	"/home/soslab/pyct-coverage/coverage_ray/transformers/<frozen importlib._bootstrap_external>": {
+		"spec_from_file_location": {
+			"name": "_pytest.helpconfig",
+			"location": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/helpconfig.py",
+			"loader": "NOT_PRIMITIVE",
+			"submodule_search_locations": "NOT_PRIMITIVE"
+		},
+		"cache_from_source": {
+			"path": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/helpconfig.py",
+			"debug_override": "NOT_PRIMITIVE",
+			"optimization": "NOT_PRIMITIVE"
+		},
+		"_NamespaceLoader.get_code": {
+			"self": "NOT_PRIMITIVE",
+			"fullname": "_pytest.helpconfig"
+		},
+		"SourceFileLoader.path_stats": {
+			"self": "NOT_PRIMITIVE",
+			"path": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/helpconfig.py"
+		},
+		"FileLoader.get_data": {
+			"self": "NOT_PRIMITIVE",
+			"path": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/__pycache__/helpconfig.cpython-38.pyc"
+		}
+	},
+	"/usr/lib/python3.8/dataclasses.py": {
+		"dataclass": {
+			"init": true,
+			"repr": true,
+			"eq": true,
+			"order": false,
+			"unsafe_hash": false,
+			"frozen": true
+		},
+		"field": {
+			"default": "unconditional skip",
+			"default_factory": "NOT_PRIMITIVE",
+			"init": true,
+			"repr": true,
+			"hash": "NOT_PRIMITIVE",
+			"compare": true,
+			"metadata": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/fixtures.py": {
+		"fixture": {
+			"fixture_function": "NOT_PRIMITIVE",
+			"scope": "function",
+			"params": "NOT_PRIMITIVE",
+			"autouse": false,
+			"ids": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE"
+		},
+		"FixtureManager.pytest_plugin_registered": {
+			"self": "NOT_PRIMITIVE",
+			"plugin": "NOT_PRIMITIVE",
+			"plugin_name": "140313039492480"
+		},
+		"FixtureManager.getfixturedefs": {
+			"self": "NOT_PRIMITIVE",
+			"argname": "doc",
+			"node": "NOT_PRIMITIVE"
+		},
+		"FixtureManager.getfixtureclosure.<locals>.sort_by_scope": {
+			"arg_name": "doc"
+		},
+		"FixtureRequest.getfixturevalue": {
+			"self": "NOT_PRIMITIVE",
+			"argname": "doc"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/logging.py": {
+		"pytest_addoption.<locals>.add_option_ini": {
+			"option": "--log-level",
+			"dest": "log_level",
+			"default": "NOT_PRIMITIVE",
+			"type": "NOT_PRIMITIVE",
+			"metavar": "LEVEL",
+			"help": "Level of messages to catch/display. Not set by default, so it depends on the root/parent log handler's effective level, where it is \"WARNING\" by default."
+		},
+		"get_option_ini": {
+			"config": "NOT_PRIMITIVE",
+			"*args": [
+				"log_format"
+			]
+		},
+		"ColoredLevelFormatter.add_color_level": {
+			"self": "NOT_PRIMITIVE",
+			"level": 50,
+			"*args": [
+				"red"
+			]
+		},
+		"get_log_level_for_setting": {
+			"config": "NOT_PRIMITIVE",
+			"*args": [
+				"log_level"
+			]
+		},
+		"_LiveLoggingNullHandler.set_when": {
+			"self": "NOT_PRIMITIVE",
+			"when": "sessionstart"
+		}
+	},
+	"/usr/lib/python3.8/gettext.py": {
+		"dgettext": {
+			"domain": "messages",
+			"message": "positional arguments"
+		},
+		"translation": {
+			"domain": "messages",
+			"localedir": "NOT_PRIMITIVE",
+			"languages": "NOT_PRIMITIVE",
+			"class_": "NOT_PRIMITIVE",
+			"fallback": false,
+			"codeset": "NOT_PRIMITIVE"
+		},
+		"find": {
+			"domain": "messages",
+			"localedir": "NOT_PRIMITIVE",
+			"languages": "NOT_PRIMITIVE",
+			"all": true
+		}
+	},
+	"/usr/lib/python3.8/locale.py": {
+		"normalize": {
+			"localename": "zh_TW"
+		},
+		"getlocale": {
+			"category": 0
+		}
+	},
+	"/usr/lib/python3.8/genericpath.py": {
+		"exists": {
+			"path": "/usr/share/locale/zh_TW.big5/LC_MESSAGES/messages.mo"
+		},
+		"samefile": {
+			"f1": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_docscrape.py",
+			"f2": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_docscrape.py"
+		},
+		"isfile": {
+			"path": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/templates/numpydoc_docstring.rst"
+		},
+		"getmtime": {
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/templates/numpydoc_docstring.rst"
+		}
+	},
+	"/usr/lib/python3.8/argparse.py": {
+		"_ActionsContainer.add_argument_group": {
+			"self": "NOT_PRIMITIVE",
+			"*args": [
+				"positional arguments"
+			]
+		},
+		"_ActionsContainer.add_argument": {
+			"self": "NOT_PRIMITIVE",
+			"*args": [
+				"-k"
+			],
+			"action": "store",
+			"dest": "keyword",
+			"default": "",
+			"metavar": "EXPRESSION",
+			"help": "Only run tests which match the given substring expression. An expression is a Python evaluable expression where all names are substring-matched against test names and their parent classes. Example: -k 'test_method or test_other' matches all test functions and classes whose name contains 'test_method' or 'test_other', while -k 'not test_method' matches those that don't contain 'test_method' in their names. -k 'not test_method and not test_other' will eliminate the matches. Additionally keywords are matched to classes and functions containing extra names in their 'extra_keyword_matches' set, as well as functions which have names assigned directly to them. The matching is case-insensitive."
+		},
+		"ArgumentParser._parse_known_args.<locals>.consume_positionals": {
+			"start_index": 0
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/config/findpaths.py": {
+		"get_dirs_from_args.<locals>.is_option": {
+			"x": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/"
+		},
+		"get_dirs_from_args.<locals>.get_file_part_from_node_id": {
+			"x": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/pathlib.py": {
+		"absolutepath": {
+			"path": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/"
+		},
+		"fnmatch_ex": {
+			"pattern": "test_*.py",
+			"path": "NOT_PRIMITIVE"
+		},
+		"resolve_from_str": {
+			"input": ".pytest_cache",
+			"rootpath": "NOT_PRIMITIVE"
+		},
+		"import_path": {
+			"path": "NOT_PRIMITIVE",
+			"mode": "prepend",
+			"root": "NOT_PRIMITIVE",
+			"consider_namespace_packages": false
+		},
+		"resolve_pkg_root_and_module_name": {
+			"path": "NOT_PRIMITIVE",
+			"consider_namespace_packages": false
+		},
+		"make_numbered_dir_with_cleanup": {
+			"root": "NOT_PRIMITIVE",
+			"prefix": "pytest-",
+			"keep": 3,
+			"lock_timeout": 259200,
+			"mode": 448
+		},
+		"make_numbered_dir": {
+			"root": "NOT_PRIMITIVE",
+			"prefix": "pytest-",
+			"mode": 448
+		},
+		"find_suffixes": {
+			"root": "NOT_PRIMITIVE",
+			"prefix": "pytest-"
+		},
+		"extract_suffixes": {
+			"iter": "NOT_PRIMITIVE",
+			"prefix": "pytest-"
+		},
+		"find_prefixed": {
+			"root": "NOT_PRIMITIVE",
+			"prefix": "pytest-"
+		},
+		"parse_num": {
+			"maybe_num": "3"
+		}
+	},
+	"/usr/lib/python3.8/zipfile.py": {
+		"CompleteDirs.make": {
+			"source": "/home/soslab/.local/share/virtualenvs/PyCT-optimize-iAsiglTl/lib/python3.8/site-packages"
+		}
+	},
+	"/usr/lib/python3.8/importlib/metadata.py": {
+		"FastPath.joinpath": {
+			"self": "NOT_PRIMITIVE",
+			"child": "uvicorn-0.30.1.dist-info"
+		},
+		"PathDistribution.read_text": {
+			"self": "NOT_PRIMITIVE",
+			"filename": "entry_points.txt"
+		},
+		"Distribution.files.<locals>.make_file": {
+			"name": "anyio-4.4.0.dist-info/INSTALLER",
+			"hash": "sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg",
+			"size_str": "4"
+		}
+	},
+	"/usr/lib/python3.8/configparser.py": {
+		"RawConfigParser.read_string": {
+			"self": "NOT_PRIMITIVE",
+			"string": "[console_scripts]\nuvicorn = uvicorn.main:main\n",
+			"source": "<string>"
+		},
+		"RawConfigParser.read_file": {
+			"self": "NOT_PRIMITIVE",
+			"f": "NOT_PRIMITIVE",
+			"source": "<string>"
+		},
+		"Interpolation.before_read": {
+			"self": "NOT_PRIMITIVE",
+			"parser": "NOT_PRIMITIVE",
+			"section": "console_scripts",
+			"option": "uvicorn",
+			"value": "uvicorn.main:main"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/assertion/rewrite.py": {
+		"AssertionRewritingHook.mark_rewrite": {
+			"self": "NOT_PRIMITIVE",
+			"*args": [
+				"anyio"
+			]
+		},
+		"AssertionRewritingHook.find_spec": {
+			"self": "NOT_PRIMITIVE",
+			"name": "anyio",
+			"path": "NOT_PRIMITIVE",
+			"target": "NOT_PRIMITIVE"
+		},
+		"rewrite_asserts": {
+			"mod": "NOT_PRIMITIVE",
+			"source": "NOT_PRIMITIVE",
+			"module_path": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/anyio/__init__.py",
+			"config": "NOT_PRIMITIVE"
+		},
+		"AssertionRewriter.builtin": {
+			"self": "NOT_PRIMITIVE",
+			"name": "locals"
+		},
+		"AssertionRewriter.helper": {
+			"self": "NOT_PRIMITIVE",
+			"name": "_should_repr_global_name",
+			"*args": [
+				"NOT_PRIMITIVE"
+			]
+		}
+	},
+	"/usr/lib/python3.8/importlib/__init__.py": {
+		"import_module": {
+			"name": "anyio.pytest_plugin",
+			"package": "NOT_PRIMITIVE"
+		}
+	},
+	"/usr/lib/python3.8/fnmatch.py": {
+		"fnmatch": {
+			"name": "anyio.py",
+			"pat": "test_*.py"
+		},
+		"fnmatchcase": {
+			"name": "anyio.py",
+			"pat": "test_*.py"
+		},
+		"translate": {
+			"pat": "test_*.py"
+		}
+	},
+	"/usr/lib/python3.8/collections/__init__.py": {
+		"namedtuple": {
+			"typename": "MemoryObjectStreamStatistics",
+			"field_names": "NOT_PRIMITIVE",
+			"rename": false,
+			"defaults": "NOT_PRIMITIVE",
+			"module": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/warnings.py": {
+		"catch_warnings_for_item": {
+			"config": "NOT_PRIMITIVE",
+			"ihook": "NOT_PRIMITIVE",
+			"when": "config",
+			"item": "NOT_PRIMITIVE"
+		}
+	},
+	"/usr/lib/python3.8/warnings.py": {
+		"filterwarnings": {
+			"action": "always",
+			"message": "",
+			"category": "NOT_PRIMITIVE",
+			"module": "",
+			"lineno": 0,
+			"append": false
+		},
+		"simplefilter": {
+			"action": "default",
+			"category": "NOT_PRIMITIVE",
+			"lineno": 0,
+			"append": false
+		}
+	},
+	"/usr/lib/python3.8/tempfile.py": {
+		"TemporaryFile": {
+			"mode": "w+b",
+			"buffering": 0,
+			"encoding": "NOT_PRIMITIVE",
+			"newline": "NOT_PRIMITIVE",
+			"suffix": "NOT_PRIMITIVE",
+			"prefix": "NOT_PRIMITIVE",
+			"dir": "NOT_PRIMITIVE",
+			"errors": "NOT_PRIMITIVE"
+		}
+	},
+	"/usr/lib/python3.8/random.py": {
+		"Random.choice": {
+			"self": "NOT_PRIMITIVE",
+			"seq": "abcdefghijklmnopqrstuvwxyz0123456789_"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/monkeypatch.py": {
+		"MonkeyPatch.setattr": {
+			"self": "NOT_PRIMITIVE",
+			"target": "NOT_PRIMITIVE",
+			"name": "makedir",
+			"value": "NOT_PRIMITIVE",
+			"raising": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/capture.py": {
+		"CaptureManager.suspend_global_capture": {
+			"self": "NOT_PRIMITIVE",
+			"in_": false
+		},
+		"MultiCapture.suspend_capturing": {
+			"self": "NOT_PRIMITIVE",
+			"in_": false
+		},
+		"CaptureManager.item_capture": {
+			"self": "NOT_PRIMITIVE",
+			"when": "setup",
+			"item": "NOT_PRIMITIVE"
+		},
+		"FDCapture.writeorg": {
+			"self": "NOT_PRIMITIVE",
+			"data": "Was this exception triggered by total_timeout? not enough values to unpack (expected 3, got 2)\n"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/cacheprovider.py": {
+		"Cache.for_config": {
+			"config": "NOT_PRIMITIVE",
+			"_ispytest": true
+		},
+		"Cache.cache_dir_from_config": {
+			"config": "NOT_PRIMITIVE",
+			"_ispytest": true
+		},
+		"Cache.get": {
+			"self": "NOT_PRIMITIVE",
+			"key": "cache/lastfailed",
+			"default": "NOT_PRIMITIVE"
+		},
+		"Cache.set": {
+			"self": "NOT_PRIMITIVE",
+			"key": "cache/nodeids",
+			"value": "NOT_PRIMITIVE"
+		}
+	},
+	"/usr/lib/python3.8/json/__init__.py": {
+		"loads": {
+			"s": "{\n  \".local/share/virtualenvs/PyCT-optimize-iAsiglTl/lib/python3.8/site-packages/transformers/tests/test_configuration_common.py\": true,\n  \".local/share/virtualenvs/PyCT-optimize-iAsiglTl/lib/python3.8/site-packages/transformers/tests/test_modeling_common.py\": true\n}",
+			"cls": "NOT_PRIMITIVE",
+			"object_hook": "NOT_PRIMITIVE",
+			"parse_float": "NOT_PRIMITIVE",
+			"parse_int": "NOT_PRIMITIVE",
+			"parse_constant": "NOT_PRIMITIVE",
+			"object_pairs_hook": "NOT_PRIMITIVE"
+		},
+		"dumps": {
+			"obj": "NOT_PRIMITIVE",
+			"skipkeys": false,
+			"ensure_ascii": false,
+			"check_circular": true,
+			"allow_nan": true,
+			"cls": "NOT_PRIMITIVE",
+			"indent": 2,
+			"separators": "NOT_PRIMITIVE",
+			"default": "NOT_PRIMITIVE",
+			"sort_keys": false
+		}
+	},
+	"/usr/lib/python3.8/json/decoder.py": {
+		"JSONDecoder.raw_decode": {
+			"self": "NOT_PRIMITIVE",
+			"s": "{\n  \".local/share/virtualenvs/PyCT-optimize-iAsiglTl/lib/python3.8/site-packages/transformers/tests/test_configuration_common.py\": true,\n  \".local/share/virtualenvs/PyCT-optimize-iAsiglTl/lib/python3.8/site-packages/transformers/tests/test_modeling_common.py\": true\n}",
+			"idx": 0
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/tmpdir.py": {
+		"TempPathFactory.from_config": {
+			"config": "NOT_PRIMITIVE",
+			"_ispytest": true
+		},
+		"TempPathFactory.mktemp": {
+			"self": "NOT_PRIMITIVE",
+			"basename": "test_extract_ignore_validation",
+			"numbered": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/_io/terminalwriter.py": {
+		"TerminalWriter.markup": {
+			"self": "NOT_PRIMITIVE",
+			"text": "CRITICAL",
+			"red": true
+		},
+		"TerminalWriter.sep": {
+			"self": "NOT_PRIMITIVE",
+			"sepchar": "=",
+			"title": "test session starts",
+			"fullwidth": "NOT_PRIMITIVE",
+			"bold": true
+		},
+		"TerminalWriter.line": {
+			"self": "NOT_PRIMITIVE",
+			"s": "============================= test session starts ==============================",
+			"bold": true
+		},
+		"TerminalWriter.write": {
+			"self": "NOT_PRIMITIVE",
+			"msg": "============================= test session starts ==============================",
+			"flush": false,
+			"bold": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/compat.py": {
+		"safe_getattr": {
+			"object": "NOT_PRIMITIVE",
+			"name": "__class__",
+			"default": "NOT_PRIMITIVE"
+		},
+		"legacy_path": {
+			"path": "/home/soslab/pyct-coverage/coverage_ray/transformers"
+		},
+		"getfuncargnames": {
+			"function": "NOT_PRIMITIVE",
+			"name": "pytestconfig",
+			"cls": "NOT_PRIMITIVE"
+		},
+		"ascii_escaped": {
+			"val": "flush"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/scope.py": {
+		"Scope.from_user": {
+			"scope_name": "session",
+			"descr": "Fixture 'pytestconfig'",
+			"where": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/_io/wcwidth.py": {
+		"wcswidth": {
+			"s": ""
+		},
+		"wcwidth": {
+			"c": "."
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/terminal.py": {
+		"TerminalReporter.write_sep": {
+			"self": "NOT_PRIMITIVE",
+			"sep": "=",
+			"title": "test session starts",
+			"fullwidth": "NOT_PRIMITIVE",
+			"bold": true
+		},
+		"TerminalReporter.write_line": {
+			"self": "NOT_PRIMITIVE",
+			"line": "platform linux -- Python 3.8.10, pytest-8.2.2, pluggy-1.5.0"
+		},
+		"TerminalReporter.write": {
+			"self": "NOT_PRIMITIVE",
+			"content": "collecting ... ",
+			"flush": true,
+			"bold": true
+		},
+		"TerminalReporter.report_collect": {
+			"self": "NOT_PRIMITIVE",
+			"final": false
+		},
+		"TerminalReporter.rewrite": {
+			"self": "NOT_PRIMITIVE",
+			"line": "collecting 0 items",
+			"bold": true,
+			"erase": true
+		},
+		"TerminalReporter.pytest_runtest_logstart": {
+			"self": "NOT_PRIMITIVE",
+			"nodeid": ".local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_docscrape.py::test_signature[flush]",
+			"location": "NOT_PRIMITIVE"
+		},
+		"TerminalReporter.write_fspath_result": {
+			"self": "NOT_PRIMITIVE",
+			"nodeid": ".local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_docscrape.py::test_signature[flush]",
+			"res": ""
+		},
+		"TerminalReporter.pytest_runtest_logfinish": {
+			"self": "NOT_PRIMITIVE",
+			"nodeid": ".local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_docscrape.py::test_signature[flush]"
+		},
+		"TerminalReporter.getreports": {
+			"self": "NOT_PRIMITIVE",
+			"name": "error"
+		},
+		"TerminalReporter.summary_failures_combined": {
+			"self": "NOT_PRIMITIVE",
+			"which_reports": "failed",
+			"sep_title": "FAILURES",
+			"needed_opt": "NOT_PRIMITIVE"
+		},
+		"TerminalReporter.hasopt": {
+			"self": "NOT_PRIMITIVE",
+			"char": "x"
+		},
+		"TerminalReporter.summary_passes_combined": {
+			"self": "NOT_PRIMITIVE",
+			"which_reports": "passed",
+			"sep_title": "PASSES",
+			"needed_opt": "P"
+		},
+		"TerminalReporter.short_test_summary.<locals>.show_simple": {
+			"lines": "NOT_PRIMITIVE",
+			"stat": "failed"
+		},
+		"pluralize": {
+			"count": 2,
+			"noun": "failed"
+		},
+		"format_session_duration": {
+			"seconds": 4443.183948278427
+		}
+	},
+	"/usr/lib/python3.8/email/__init__.py": {
+		"message_from_string": {
+			"s": "Metadata-Version: 2.1\nName: anyio\nVersion: 4.4.0\nSummary: High level compatibility layer for multiple asynchronous event loop implementations\nAuthor-email: Alex Gr\u00f6nholm <alex.gronholm@nextday.fi>\nLicense: MIT\nProject-URL: Documentation, https://anyio.readthedocs.io/en/latest/\nProject-URL: Changelog, https://anyio.readthedocs.io/en/stable/versionhistory.html\nProject-URL: Source code, https://github.com/agronholm/anyio\nProject-URL: Issue tracker, https://github.com/agronholm/anyio/issues\nClassifier: Development Status :: 5 - Production/Stable\nClassifier: Intended Audience :: Developers\nClassifier: License :: OSI Approved :: MIT License\nClassifier: Framework :: AnyIO\nClassifier: Typing :: Typed\nClassifier: Programming Language :: Python\nClassifier: Programming Language :: Python :: 3\nClassifier: Programming Language :: Python :: 3.8\nClassifier: Programming Language :: Python :: 3.9\nClassifier: Programming Language :: Python :: 3.10\nClassifier: Programming Language :: Python :: 3.11\nClassifier: Programming Language :: Python :: 3.12\nRequires-Python: >=3.8\nDescription-Content-Type: text/x-rst\nLicense-File: LICENSE\nRequires-Dist: idna >=2.8\nRequires-Dist: sniffio >=1.1\nRequires-Dist: exceptiongroup >=1.0.2 ; python_version < \"3.11\"\nRequires-Dist: typing-extensions >=4.1 ; python_version < \"3.11\"\nProvides-Extra: doc\nRequires-Dist: packaging ; extra == 'doc'\nRequires-Dist: Sphinx >=7 ; extra == 'doc'\nRequires-Dist: sphinx-rtd-theme ; extra == 'doc'\nRequires-Dist: sphinx-autodoc-typehints >=1.2.0 ; extra == 'doc'\nProvides-Extra: test\nRequires-Dist: anyio[trio] ; extra == 'test'\nRequires-Dist: coverage[toml] >=7 ; extra == 'test'\nRequires-Dist: exceptiongroup >=1.2.0 ; extra == 'test'\nRequires-Dist: hypothesis >=4.0 ; extra == 'test'\nRequires-Dist: psutil >=5.9 ; extra == 'test'\nRequires-Dist: pytest >=7.0 ; extra == 'test'\nRequires-Dist: pytest-mock >=3.6.1 ; extra == 'test'\nRequires-Dist: trustme ; extra == 'test'\nRequires-Dist: uvloop >=0.17 ; (platform_python_implementation == \"CPython\" and platform_system != \"Windows\") and extra == 'test'\nProvides-Extra: trio\nRequires-Dist: trio >=0.23 ; extra == 'trio'\n\n.. image:: https://github.com/agronholm/anyio/actions/workflows/test.yml/badge.svg\n  :target: https://github.com/agronholm/anyio/actions/workflows/test.yml\n  :alt: Build Status\n.. image:: https://coveralls.io/repos/github/agronholm/anyio/badge.svg?branch=master\n  :target: https://coveralls.io/github/agronholm/anyio?branch=master\n  :alt: Code Coverage\n.. image:: https://readthedocs.org/projects/anyio/badge/?version=latest\n  :target: https://anyio.readthedocs.io/en/latest/?badge=latest\n  :alt: Documentation\n.. image:: https://badges.gitter.im/gitterHQ/gitter.svg\n  :target: https://gitter.im/python-trio/AnyIO\n  :alt: Gitter chat\n\nAnyIO is an asynchronous networking and concurrency library that works on top of either asyncio_ or\ntrio_. It implements trio-like `structured concurrency`_ (SC) on top of asyncio and works in harmony\nwith the native SC of trio itself.\n\nApplications and libraries written against AnyIO's API will run unmodified on either asyncio_ or\ntrio_. AnyIO can also be adopted into a library or application incrementally \u2013 bit by bit, no full\nrefactoring necessary. It will blend in with the native libraries of your chosen backend.\n\nDocumentation\n-------------\n\nView full documentation at: https://anyio.readthedocs.io/\n\nFeatures\n--------\n\nAnyIO offers the following functionality:\n\n* Task groups (nurseries_ in trio terminology)\n* High-level networking (TCP, UDP and UNIX sockets)\n\n  * `Happy eyeballs`_ algorithm for TCP connections (more robust than that of asyncio on Python\n    3.8)\n  * async/await style UDP sockets (unlike asyncio where you still have to use Transports and\n    Protocols)\n\n* A versatile API for byte streams and object streams\n* Inter-task synchronization and communication (locks, conditions, events, semaphores, object\n  streams)\n* Worker threads\n* Subprocesses\n* Asynchronous file I/O (using worker threads)\n* Signal handling\n\nAnyIO also comes with its own pytest_ plugin which also supports asynchronous fixtures.\nIt even works with the popular Hypothesis_ library.\n\n.. _asyncio: https://docs.python.org/3/library/asyncio.html\n.. _trio: https://github.com/python-trio/trio\n.. _structured concurrency: https://en.wikipedia.org/wiki/Structured_concurrency\n.. _nurseries: https://trio.readthedocs.io/en/stable/reference-core.html#nurseries-and-spawning\n.. _Happy eyeballs: https://en.wikipedia.org/wiki/Happy_Eyeballs\n.. _pytest: https://docs.pytest.org/en/latest/\n.. _Hypothesis: https://hypothesis.works/\n"
+		}
+	},
+	"/usr/lib/python3.8/email/parser.py": {
+		"HeaderParser.parsestr": {
+			"self": "NOT_PRIMITIVE",
+			"text": "Metadata-Version: 2.1\nName: anyio\nVersion: 4.4.0\nSummary: High level compatibility layer for multiple asynchronous event loop implementations\nAuthor-email: Alex Gr\u00f6nholm <alex.gronholm@nextday.fi>\nLicense: MIT\nProject-URL: Documentation, https://anyio.readthedocs.io/en/latest/\nProject-URL: Changelog, https://anyio.readthedocs.io/en/stable/versionhistory.html\nProject-URL: Source code, https://github.com/agronholm/anyio\nProject-URL: Issue tracker, https://github.com/agronholm/anyio/issues\nClassifier: Development Status :: 5 - Production/Stable\nClassifier: Intended Audience :: Developers\nClassifier: License :: OSI Approved :: MIT License\nClassifier: Framework :: AnyIO\nClassifier: Typing :: Typed\nClassifier: Programming Language :: Python\nClassifier: Programming Language :: Python :: 3\nClassifier: Programming Language :: Python :: 3.8\nClassifier: Programming Language :: Python :: 3.9\nClassifier: Programming Language :: Python :: 3.10\nClassifier: Programming Language :: Python :: 3.11\nClassifier: Programming Language :: Python :: 3.12\nRequires-Python: >=3.8\nDescription-Content-Type: text/x-rst\nLicense-File: LICENSE\nRequires-Dist: idna >=2.8\nRequires-Dist: sniffio >=1.1\nRequires-Dist: exceptiongroup >=1.0.2 ; python_version < \"3.11\"\nRequires-Dist: typing-extensions >=4.1 ; python_version < \"3.11\"\nProvides-Extra: doc\nRequires-Dist: packaging ; extra == 'doc'\nRequires-Dist: Sphinx >=7 ; extra == 'doc'\nRequires-Dist: sphinx-rtd-theme ; extra == 'doc'\nRequires-Dist: sphinx-autodoc-typehints >=1.2.0 ; extra == 'doc'\nProvides-Extra: test\nRequires-Dist: anyio[trio] ; extra == 'test'\nRequires-Dist: coverage[toml] >=7 ; extra == 'test'\nRequires-Dist: exceptiongroup >=1.2.0 ; extra == 'test'\nRequires-Dist: hypothesis >=4.0 ; extra == 'test'\nRequires-Dist: psutil >=5.9 ; extra == 'test'\nRequires-Dist: pytest >=7.0 ; extra == 'test'\nRequires-Dist: pytest-mock >=3.6.1 ; extra == 'test'\nRequires-Dist: trustme ; extra == 'test'\nRequires-Dist: uvloop >=0.17 ; (platform_python_implementation == \"CPython\" and platform_system != \"Windows\") and extra == 'test'\nProvides-Extra: trio\nRequires-Dist: trio >=0.23 ; extra == 'trio'\n\n.. image:: https://github.com/agronholm/anyio/actions/workflows/test.yml/badge.svg\n  :target: https://github.com/agronholm/anyio/actions/workflows/test.yml\n  :alt: Build Status\n.. image:: https://coveralls.io/repos/github/agronholm/anyio/badge.svg?branch=master\n  :target: https://coveralls.io/github/agronholm/anyio?branch=master\n  :alt: Code Coverage\n.. image:: https://readthedocs.org/projects/anyio/badge/?version=latest\n  :target: https://anyio.readthedocs.io/en/latest/?badge=latest\n  :alt: Documentation\n.. image:: https://badges.gitter.im/gitterHQ/gitter.svg\n  :target: https://gitter.im/python-trio/AnyIO\n  :alt: Gitter chat\n\nAnyIO is an asynchronous networking and concurrency library that works on top of either asyncio_ or\ntrio_. It implements trio-like `structured concurrency`_ (SC) on top of asyncio and works in harmony\nwith the native SC of trio itself.\n\nApplications and libraries written against AnyIO's API will run unmodified on either asyncio_ or\ntrio_. AnyIO can also be adopted into a library or application incrementally \u2013 bit by bit, no full\nrefactoring necessary. It will blend in with the native libraries of your chosen backend.\n\nDocumentation\n-------------\n\nView full documentation at: https://anyio.readthedocs.io/\n\nFeatures\n--------\n\nAnyIO offers the following functionality:\n\n* Task groups (nurseries_ in trio terminology)\n* High-level networking (TCP, UDP and UNIX sockets)\n\n  * `Happy eyeballs`_ algorithm for TCP connections (more robust than that of asyncio on Python\n    3.8)\n  * async/await style UDP sockets (unlike asyncio where you still have to use Transports and\n    Protocols)\n\n* A versatile API for byte streams and object streams\n* Inter-task synchronization and communication (locks, conditions, events, semaphores, object\n  streams)\n* Worker threads\n* Subprocesses\n* Asynchronous file I/O (using worker threads)\n* Signal handling\n\nAnyIO also comes with its own pytest_ plugin which also supports asynchronous fixtures.\nIt even works with the popular Hypothesis_ library.\n\n.. _asyncio: https://docs.python.org/3/library/asyncio.html\n.. _trio: https://github.com/python-trio/trio\n.. _structured concurrency: https://en.wikipedia.org/wiki/Structured_concurrency\n.. _nurseries: https://trio.readthedocs.io/en/stable/reference-core.html#nurseries-and-spawning\n.. _Happy eyeballs: https://en.wikipedia.org/wiki/Happy_Eyeballs\n.. _pytest: https://docs.pytest.org/en/latest/\n.. _Hypothesis: https://hypothesis.works/\n",
+			"headersonly": false
+		},
+		"BytesHeaderParser.parse": {
+			"self": "NOT_PRIMITIVE",
+			"fp": "NOT_PRIMITIVE",
+			"headersonly": false
+		}
+	},
+	"/usr/lib/python3.8/email/feedparser.py": {
+		"BytesFeedParser.feed": {
+			"self": "NOT_PRIMITIVE",
+			"data": "Metadata-Version: 2.1\nName: anyio\nVersion: 4.4.0\nSummary: High level compatibility layer for multiple asynchronous event loop implementations\nAuthor-email: Alex Gr\u00f6nholm <alex.gronholm@nextday.fi>\nLicense: MIT\nProject-URL: Documentation, https://anyio.readthedocs.io/en/latest/\nProject-URL: Changelog, https://anyio.readthedocs.io/en/stable/versionhistory.html\nProject-URL: Source code, https://github.com/agronholm/anyio\nProject-URL: Issue tracker, https://github.com/agronholm/anyio/issues\nClassifier: Development Status :: 5 - Production/Stable\nClassifier: Intended Audience :: Developers\nClassifier: License :: OSI Approved :: MIT License\nClassifier: Framework :: AnyIO\nClassifier: Typing :: Typed\nClassifier: Programming Language :: Python\nClassifier: Programming Language :: Python :: 3\nClassifier: Programming Language :: Python :: 3.8\nClassifier: Programming Language :: Python :: 3.9\nClassifier: Programming Language :: Python :: 3.10\nClassifier: Programming Language :: Python :: 3.11\nClassifier: Programming Language :: Python :: 3.12\nRequires-Python: >=3.8\nDescription-Content-Type: text/x-rst\nLicense-File: LICENSE\nRequires-Dist: idna >=2.8\nRequires-Dist: sniffio >=1.1\nRequires-Dist: exceptiongroup >=1.0.2 ; python_version < \"3.11\"\nRequires-Dist: typing-extensions >=4.1 ; python_version < \"3.11\"\nProvides-Extra: doc\nRequires-Dist: packaging ; extra == 'doc'\nRequires-Dist: Sphinx >=7 ; extra == 'doc'\nRequires-Dist: sphinx-rtd-theme ; extra == 'doc'\nRequires-Dist: sphinx-autodoc-typehints >=1.2.0 ; extra == 'doc'\nProvides-Extra: test\nRequires-Dist: anyio[trio] ; extra == 'test'\nRequires-Dist: coverage[toml] >=7 ; extra == 'test'\nRequires-Dist: exceptiongroup >=1.2.0 ; extra == 'test'\nRequires-Dist: hypothesis >=4.0 ; extra == 'test'\nRequires-Dist: psutil >=5.9 ; extra == 'test'\nRequires-Dist: pytest >=7.0 ; extra == 'test'\nRequires-Dist: pytest-mock >=3.6.1 ; extra == 'test'\nRequires-Dist: trustme ; extra == 'test'\nRequires-Dist: uvloop >=0.17 ; (platform_python_implementation == \"CPython\" and platform_system != \"Windows\") and extra == 'test'\nProvides-Extra: trio\nRequires-Dist: trio >=0.23 ; extra == 'trio'\n\n.. image:: https://github.com/agronholm/anyio/actions/workflows/test.yml/badge.svg\n  :target: https://github.com/agronholm/anyio/actions/workflows/test.yml\n  :alt: Build Status\n.. image:: https://coveralls.io/repos/github/agronholm/anyio/badge.svg?branch=master\n  :target: https://coveralls.io/github/agronholm/anyio?branch=master\n  :alt: Code Coverage\n.. image:: https://readthedocs.org/projects/anyio/badge/?version=latest\n  :target: https://anyio.readthedocs.io/en/latest/?badge=latest\n  :alt: Documentation\n.. image:: https://badges.gitter.im/gitterHQ/gitter.svg\n  :target: https://gitter.im/python-trio/AnyIO\n  :alt: Gitter chat\n\nAnyIO is an asynchronous networking and concurrency library that works on top of either asyncio_ or\ntrio_. It implements trio-like `structured concurrency`_ (SC) on top of asyncio and works in harmony\nwith the native SC of trio itself.\n\nApplications and libraries written against AnyIO's API will run unmodified on either asyncio_ or\ntrio_. AnyIO can also be adopted into a library or application incrementally \u2013 bit by bit, no full\nrefactoring necessary. It will blend in with the native libraries of your chosen backend.\n\nDocumentation\n-------------\n\nView full documentation at: https://anyio.readthedocs.io/\n\nFeatures\n--------\n\nAnyIO offers the following functionality:\n\n* Task groups (nurseries_ in trio terminology)\n* High-level networking (TCP, UDP and UNIX sockets)\n\n  * `Happy eyeballs`_ algorithm for TCP connections (more robust than that of asyncio on Python\n    3.8)\n  * async/await style UDP sockets (unlike asyncio where you still have to use Transports and\n    Protocols)\n\n* A versatile API for byte streams and object streams\n* Inter-task synchronization and communication (locks, conditions, events, semaphores, object\n  streams)\n* Worker threads\n* Subprocesses\n* Asynchronous file I/O (using worker threads)\n* Signal handling\n\nAnyIO also comes with its own pytest_ plugin which also supports asynchronous fixtures.\nIt even works with the popular Hypothesis_ library.\n\n.. _asyncio: https://docs.python.org/3/library/asyncio.html\n.. _trio: https://github.com/python-trio/trio\n.. _structured concurrency: https://en.wikipedia.org/wiki/Structured_concurrency\n.. _nurseries: https://trio.readthedocs.io/en/stable/reference-core.html#nurseries-and-spawning\n.. _Happy eyeballs: https://en.wikipedia.org/wiki/Happy_Eyeballs\n.. _pytest: https://docs.pytest.org/en/latest/\n.. _Hypothesis: https://hypothesis.works/\n"
+		},
+		"BufferedSubFile.push": {
+			"self": "NOT_PRIMITIVE",
+			"data": "Metadata-Version: 2.1\nName: anyio\nVersion: 4.4.0\nSummary: High level compatibility layer for multiple asynchronous event loop implementations\nAuthor-email: Alex Gr\u00f6nholm <alex.gronholm@nextday.fi>\nLicense: MIT\nProject-URL: Documentation, https://anyio.readthedocs.io/en/latest/\nProject-URL: Changelog, https://anyio.readthedocs.io/en/stable/versionhistory.html\nProject-URL: Source code, https://github.com/agronholm/anyio\nProject-URL: Issue tracker, https://github.com/agronholm/anyio/issues\nClassifier: Development Status :: 5 - Production/Stable\nClassifier: Intended Audience :: Developers\nClassifier: License :: OSI Approved :: MIT License\nClassifier: Framework :: AnyIO\nClassifier: Typing :: Typed\nClassifier: Programming Language :: Python\nClassifier: Programming Language :: Python :: 3\nClassifier: Programming Language :: Python :: 3.8\nClassifier: Programming Language :: Python :: 3.9\nClassifier: Programming Language :: Python :: 3.10\nClassifier: Programming Language :: Python :: 3.11\nClassifier: Programming Language :: Python :: 3.12\nRequires-Python: >=3.8\nDescription-Content-Type: text/x-rst\nLicense-File: LICENSE\nRequires-Dist: idna >=2.8\nRequires-Dist: sniffio >=1.1\nRequires-Dist: exceptiongroup >=1.0.2 ; python_version < \"3.11\"\nRequires-Dist: typing-extensions >=4.1 ; python_version < \"3.11\"\nProvides-Extra: doc\nRequires-Dist: packaging ; extra == 'doc'\nRequires-Dist: Sphinx >=7 ; extra == 'doc'\nRequires-Dist: sphinx-rtd-theme ; extra == 'doc'\nRequires-Dist: sphinx-autodoc-typehints >=1.2.0 ; extra == 'doc'\nProvides-Extra: test\nRequires-Dist: anyio[trio] ; extra == 'test'\nRequires-Dist: coverage[toml] >=7 ; extra == 'test'\nRequires-Dist: exceptiongroup >=1.2.0 ; extra == 'test'\nRequires-Dist: hypothesis >=4.0 ; extra == 'test'\nRequires-Dist: psutil >=5.9 ; extra == 'test'\nRequires-Dist: pytest >=7.0 ; extra == 'test'\nRequires-Dist: pytest-mock >=3.6.1 ; extra == 'test'\nRequires-Dist: trustme ; extra == 'test'\nRequires-Dist: uvloop >=0.17 ; (platform_python_implementation == \"CPython\" and platform_system != \"Windows\") and extra == 'test'\nProvides-Extra: trio\nRequires-Dist: trio >=0.23 ; extra == 'trio'\n\n.. image:: https://github.com/agronholm/anyio/actions/workflows/test.yml/badge.svg\n  :target: https://github.com/agronholm/anyio/actions/workflows/test.yml\n  :alt: Build Status\n.. image:: https://coveralls.io/repos/github/agronholm/anyio/badge.svg?branch=master\n  :target: https://coveralls.io/github/agronholm/anyio?branch=master\n  :alt: Code Coverage\n.. image:: https://readthedocs.org/projects/anyio/badge/?version=latest\n  :target: https://anyio.readthedocs.io/en/latest/?badge=latest\n  :alt: Documentation\n.. image:: https://badges.gitter.im/gitterHQ/gitter.svg\n  :target: https://gitter.im/python-trio/AnyIO\n  :alt: Gitter chat\n\nAnyIO is an asynchronous networking and concurrency library that works on top of either asyncio_ or\ntrio_. It implements trio-like `structured concurrency`_ (SC) on top of asyncio and works in harmony\nwith the native SC of trio itself.\n\nApplications and libraries written against AnyIO's API will run unmodified on either asyncio_ or\ntrio_. AnyIO can also be adopted into a library or application incrementally \u2013 bit by bit, no full\nrefactoring necessary. It will blend in with the native libraries of your chosen backend.\n\nDocumentation\n-------------\n\nView full documentation at: https://anyio.readthedocs.io/\n\nFeatures\n--------\n\nAnyIO offers the following functionality:\n\n* Task groups (nurseries_ in trio terminology)\n* High-level networking (TCP, UDP and UNIX sockets)\n\n  * `Happy eyeballs`_ algorithm for TCP connections (more robust than that of asyncio on Python\n    3.8)\n  * async/await style UDP sockets (unlike asyncio where you still have to use Transports and\n    Protocols)\n\n* A versatile API for byte streams and object streams\n* Inter-task synchronization and communication (locks, conditions, events, semaphores, object\n  streams)\n* Worker threads\n* Subprocesses\n* Asynchronous file I/O (using worker threads)\n* Signal handling\n\nAnyIO also comes with its own pytest_ plugin which also supports asynchronous fixtures.\nIt even works with the popular Hypothesis_ library.\n\n.. _asyncio: https://docs.python.org/3/library/asyncio.html\n.. _trio: https://github.com/python-trio/trio\n.. _structured concurrency: https://en.wikipedia.org/wiki/Structured_concurrency\n.. _nurseries: https://trio.readthedocs.io/en/stable/reference-core.html#nurseries-and-spawning\n.. _Happy eyeballs: https://en.wikipedia.org/wiki/Happy_Eyeballs\n.. _pytest: https://docs.pytest.org/en/latest/\n.. _Hypothesis: https://hypothesis.works/\n"
+		}
+	},
+	"/usr/lib/python3.8/email/message.py": {
+		"Message.set_raw": {
+			"self": "NOT_PRIMITIVE",
+			"name": "Metadata-Version",
+			"value": "2.1"
+		},
+		"Message.get": {
+			"self": "NOT_PRIMITIVE",
+			"name": "content-type",
+			"failobj": "NOT_PRIMITIVE"
+		},
+		"Message.set_payload": {
+			"self": "NOT_PRIMITIVE",
+			"payload": ".. image:: https://github.com/agronholm/anyio/actions/workflows/test.yml/badge.svg\n  :target: https://github.com/agronholm/anyio/actions/workflows/test.yml\n  :alt: Build Status\n.. image:: https://coveralls.io/repos/github/agronholm/anyio/badge.svg?branch=master\n  :target: https://coveralls.io/github/agronholm/anyio?branch=master\n  :alt: Code Coverage\n.. image:: https://readthedocs.org/projects/anyio/badge/?version=latest\n  :target: https://anyio.readthedocs.io/en/latest/?badge=latest\n  :alt: Documentation\n.. image:: https://badges.gitter.im/gitterHQ/gitter.svg\n  :target: https://gitter.im/python-trio/AnyIO\n  :alt: Gitter chat\n\nAnyIO is an asynchronous networking and concurrency library that works on top of either asyncio_ or\ntrio_. It implements trio-like `structured concurrency`_ (SC) on top of asyncio and works in harmony\nwith the native SC of trio itself.\n\nApplications and libraries written against AnyIO's API will run unmodified on either asyncio_ or\ntrio_. AnyIO can also be adopted into a library or application incrementally \u2013 bit by bit, no full\nrefactoring necessary. It will blend in with the native libraries of your chosen backend.\n\nDocumentation\n-------------\n\nView full documentation at: https://anyio.readthedocs.io/\n\nFeatures\n--------\n\nAnyIO offers the following functionality:\n\n* Task groups (nurseries_ in trio terminology)\n* High-level networking (TCP, UDP and UNIX sockets)\n\n  * `Happy eyeballs`_ algorithm for TCP connections (more robust than that of asyncio on Python\n    3.8)\n  * async/await style UDP sockets (unlike asyncio where you still have to use Transports and\n    Protocols)\n\n* A versatile API for byte streams and object streams\n* Inter-task synchronization and communication (locks, conditions, events, semaphores, object\n  streams)\n* Worker threads\n* Subprocesses\n* Asynchronous file I/O (using worker threads)\n* Signal handling\n\nAnyIO also comes with its own pytest_ plugin which also supports asynchronous fixtures.\nIt even works with the popular Hypothesis_ library.\n\n.. _asyncio: https://docs.python.org/3/library/asyncio.html\n.. _trio: https://github.com/python-trio/trio\n.. _structured concurrency: https://en.wikipedia.org/wiki/Structured_concurrency\n.. _nurseries: https://trio.readthedocs.io/en/stable/reference-core.html#nurseries-and-spawning\n.. _Happy eyeballs: https://en.wikipedia.org/wiki/Happy_Eyeballs\n.. _pytest: https://docs.pytest.org/en/latest/\n.. _Hypothesis: https://hypothesis.works/\n",
+			"charset": "NOT_PRIMITIVE"
+		}
+	},
+	"/usr/lib/python3.8/email/_policybase.py": {
+		"Compat32.header_fetch_parse": {
+			"self": "NOT_PRIMITIVE",
+			"name": "Name",
+			"value": "anyio"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/main.py": {
+		"Session.perform_collect": {
+			"self": "NOT_PRIMITIVE",
+			"args": "NOT_PRIMITIVE",
+			"genitems": true
+		},
+		"resolve_collection_argument": {
+			"invocation_path": "NOT_PRIMITIVE",
+			"arg": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/",
+			"as_pypath": false
+		},
+		"Session.isinitpath": {
+			"self": "NOT_PRIMITIVE",
+			"path": "NOT_PRIMITIVE",
+			"with_parents": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/runner.py": {
+		"CallInfo.from_call": {
+			"func": "NOT_PRIMITIVE",
+			"when": "collect",
+			"reraise": "NOT_PRIMITIVE"
+		},
+		"runtestprotocol": {
+			"item": "NOT_PRIMITIVE",
+			"log": true,
+			"nextitem": "NOT_PRIMITIVE"
+		},
+		"call_and_report": {
+			"item": "NOT_PRIMITIVE",
+			"when": "setup",
+			"log": true
+		}
+	},
+	"/usr/lib/python3.8/sysconfig.py": {
+		"get_path": {
+			"name": "stdlib",
+			"scheme": "posix_prefix",
+			"vars": "NOT_PRIMITIVE",
+			"expand": true
+		},
+		"get_paths": {
+			"scheme": "posix_prefix",
+			"vars": "NOT_PRIMITIVE",
+			"expand": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/sphinx/locale/__init__.py": {
+		"get_translation": {
+			"catalog": "sphinx",
+			"namespace": "general"
+		},
+		"is_translator_registered": {
+			"catalog": "sphinx",
+			"namespace": "general"
+		}
+	},
+	"/usr/lib/python3.8/encodings/__init__.py": {
+		"normalize_encoding": {
+			"encoding": "utf-8"
+		},
+		"search_function": {
+			"encoding": "unicode_escape"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/sphinx/util/console.py": {
+		"create_color_func": {
+			"name": "reset"
+		},
+		"colorize": {
+			"name": "red",
+			"text": "WARNING: [numpydoc] Validation warnings while processing docstring for 'f':\n  SA01: See Also section not found\n  EX01: No examples section found\n",
+			"input_mode": false
+		},
+		"colorize.<locals>.escseq": {
+			"name": "red"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/sphinx/util/logging.py": {
+		"getLogger": {
+			"name": "sphinx.util.display"
+		},
+		"SphinxLoggerAdapter.log": {
+			"self": "NOT_PRIMITIVE",
+			"level": 30,
+			"msg": "[numpydoc] Validation warnings while processing docstring for 'f':\n  SA01: See Also section not found\n  EX01: No examples section found\n"
+		},
+		"SphinxLoggerAdapter.process": {
+			"self": "NOT_PRIMITIVE",
+			"msg": "[numpydoc] Validation warnings while processing docstring for 'f':\n  SA01: See Also section not found\n  EX01: No examples section found\n",
+			"kwargs": "NOT_PRIMITIVE"
+		},
+		"is_suppressed_warning": {
+			"type": "",
+			"subtype": "",
+			"suppress_warnings": "NOT_PRIMITIVE"
+		},
+		"LastMessagesWriter.write": {
+			"self": "NOT_PRIMITIVE",
+			"data": "\u001b[91mWARNING: [numpydoc] Validation warnings while processing docstring for 'f':\n  SA01: See Also section not found\n  EX01: No examples section found\n\u001b[39;49;00m\n"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/docutils/parsers/rst/roles.py": {
+		"register_generic_role": {
+			"canonical_name": "abbreviation",
+			"node_class": "NOT_PRIMITIVE"
+		},
+		"register_canonical_role": {
+			"name": "abbreviation",
+			"role_fn": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/jinja2/environment.py": {
+		"create_cache": {
+			"size": 400
+		},
+		"Environment.get_template": {
+			"self": "NOT_PRIMITIVE",
+			"name": "numpydoc_docstring.rst",
+			"parent": "NOT_PRIMITIVE",
+			"globals": "NOT_PRIMITIVE"
+		},
+		"Environment.compile": {
+			"self": "NOT_PRIMITIVE",
+			"source": "{{index}}\n{{summary}}\n{{extended_summary}}\n{{parameters}}\n{{returns}}\n{{yields}}\n{{receives}}\n{{other_parameters}}\n{{raises}}\n{{warns}}\n{{warnings}}\n{{see_also}}\n{{notes}}\n{{references}}\n{{examples}}\n{{attributes}}\n{{methods}}\n",
+			"name": "numpydoc_docstring.rst",
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/templates/numpydoc_docstring.rst",
+			"raw": false,
+			"defer_init": false
+		},
+		"Environment.preprocess": {
+			"self": "NOT_PRIMITIVE",
+			"source": "{{index}}\n{{summary}}\n{{extended_summary}}\n{{parameters}}\n{{returns}}\n{{yields}}\n{{receives}}\n{{other_parameters}}\n{{raises}}\n{{warns}}\n{{warnings}}\n{{see_also}}\n{{notes}}\n{{references}}\n{{examples}}\n{{attributes}}\n{{methods}}\n",
+			"name": "numpydoc_docstring.rst",
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/templates/numpydoc_docstring.rst"
+		},
+		"Template.render": {
+			"self": "NOT_PRIMITIVE",
+			"signature": "",
+			"index": ".. index:: random\n   single: random;distributions, random;gauss\n",
+			"summary": "Draw values from a multivariate normal distribution with specified\nmean and covariance.\n",
+			"extended_summary": "The multivariate normal or Gaussian distribution is a generalisation\nof the one-dimensional normal distribution to higher dimensions.\n",
+			"parameters": ":Parameters:\n\n    **mean** : (N,) ndarray\n        Mean of the N-dimensional distribution.\n        \n        .. math::\n        \n           (1+2+3)/3\n\n    **cov** : (N, N) ndarray\n        Covariance matrix of the distribution.\n\n    **shape** : tuple of ints\n        Given a shape of, for example, (m,n,k), m*n*k samples are\n        generated, and packed in an m-by-n-by-k arrangement.  Because\n        each sample is N-dimensional, the output shape is (m,n,k,N).\n\n    **dtype** : data type object, optional (default : float)\n        The type and size of the data to be returned.\n",
+			"returns": ":Returns:\n\n    **out** : ndarray\n        The drawn samples, arranged according to `shape`.  If the\n        shape given is (m,n,...), then the shape of `out` is\n        (m,n,...,N).\n        \n        In other words, each entry ``out[i,j,...,:]`` is an N-dimensional\n        value drawn from the distribution.\n\n    list of str\n        This is not a real return value.  It exists to test\n        anonymous return values.\n\n    no_description\n        ..\n",
+			"yields": "",
+			"receives": "",
+			"other_parameters": ":Other Parameters:\n\n    **spam** : parrot\n        A parrot off its mortal coil.\n",
+			"raises": ":Raises:\n\n    RuntimeError\n        Some error\n",
+			"warns": ":Warns:\n\n    RuntimeWarning\n        Some warning\n",
+			"warnings": ".. warning::\n\n    Certain warnings apply.\n",
+			"see_also": ".. seealso::\n\n    \n    :obj:`some`, :obj:`other`, :obj:`funcs`\n        ..\n    :obj:`otherfunc`\n        relationship\n    :py:meth:`spyder.widgets.mixins.GetHelpMixin.show_object_info`\n        ..\n    ",
+			"notes": ".. rubric:: Notes\n\nInstead of specifying the full covariance matrix, popular\napproximations include:\n\n  - Spherical covariance (`cov` is a multiple of the identity matrix)\n  - Diagonal covariance (`cov` has non-negative elements only on the diagonal)\n\nThis geometrical property can be seen in two dimensions by plotting\ngenerated data-points:\n\n>>> mean = [0,0]\n>>> cov = [[1,0],[0,100]] # diagonal covariance, points lie on x or y-axis\n\n>>> x,y = multivariate_normal(mean,cov,5000).T\n>>> plt.plot(x,y,'x'); plt.axis('equal'); plt.show()\n\nNote that the covariance matrix must be symmetric and non-negative\ndefinite.\n",
+			"references": ".. rubric:: References\n\n.. [1] A. Papoulis, \"Probability, Random Variables, and Stochastic\n       Processes,\" 3rd ed., McGraw-Hill Companies, 1991\n.. [2] R.O. Duda, P.E. Hart, and D.G. Stork, \"Pattern Classification,\"\n       2nd ed., Wiley, 2001.\n\n.. only:: latex\n\n   [1]_, [2]_\n",
+			"examples": ".. rubric:: Examples\n\n>>> mean = (1,2)\n>>> cov = [[1,0],[1,0]]\n>>> x = multivariate_normal(mean,cov,(3,3))\n>>> print(x.shape)\n(3, 3, 2)\n\nThe following is probably true, given that 0.6 is roughly twice the\nstandard deviation:\n\n>>> print(list((x[0, 0, :] - mean) < 0.6))\n[True, True]\n",
+			"attributes": "",
+			"methods": ""
+		},
+		"Template.new_context": {
+			"self": "NOT_PRIMITIVE",
+			"vars": "NOT_PRIMITIVE",
+			"shared": false,
+			"locals": "NOT_PRIMITIVE"
+		},
+		"get_spontaneous_environment": {
+			"cls": "NOT_PRIMITIVE",
+			"*args": [
+				"{%",
+				"%}",
+				"{{",
+				"}}",
+				"{#",
+				"#}",
+				"NOT_PRIMITIVE",
+				"NOT_PRIMITIVE",
+				false,
+				false,
+				"\n",
+				false,
+				"NOT_PRIMITIVE",
+				true,
+				"NOT_PRIMITIVE",
+				"NOT_PRIMITIVE",
+				false,
+				"NOT_PRIMITIVE",
+				0,
+				false,
+				"NOT_PRIMITIVE",
+				false
+			]
+		},
+		"Environment.from_string": {
+			"self": "NOT_PRIMITIVE",
+			"source": "{{examples}}\n{{parameters}}",
+			"globals": "NOT_PRIMITIVE",
+			"template_class": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pytz/tzinfo.py": {
+		"memorized_timedelta": {
+			"seconds": 0
+		},
+		"memorized_datetime": {
+			"seconds": -2147483648
+		},
+		"memorized_ttinfo": {
+			"*args": [
+				29160,
+				0,
+				"LMT"
+			]
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pytz/__init__.py": {
+		"timezone": {
+			"zone": "Asia/Taipei"
+		},
+		"ascii": {
+			"s": "Asia/Taipei"
+		},
+		"resource_exists": {
+			"name": "Africa/Abidjan"
+		},
+		"open_resource": {
+			"name": "Africa/Abidjan"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/babel/core.py": {
+		"default_locale": {
+			"category": "LC_TIME",
+			"aliases": "NOT_PRIMITIVE"
+		},
+		"parse_locale": {
+			"identifier": "zh_TW",
+			"sep": "_"
+		},
+		"get_locale_identifier": {
+			"tup": "NOT_PRIMITIVE",
+			"sep": "_"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pygments/unistring.py": {
+		"combine": {
+			"*args": [
+				"Lu",
+				"Ll",
+				"Lt",
+				"Lm",
+				"Lo",
+				"Nl"
+			]
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pygments/lexers/lilypond.py": {
+		"builtin_words": {
+			"names": "NOT_PRIMITIVE",
+			"backslash": "mandatory",
+			"suffix": "(?=\\d|[^\\w\\-]|[\\-_][\\W\\d])"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pygments/lexers/data.py": {
+		"YamlLexer.save_indent": {
+			"token_class": "NOT_PRIMITIVE",
+			"start": true
+		},
+		"YamlLexer.set_indent": {
+			"token_class": "NOT_PRIMITIVE",
+			"implicit": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pygments/lexers/markup.py": {
+		"WikitextLexer.nowiki_tag_rules": {
+			"tag_name": "nowiki"
+		},
+		"WikitextLexer.plaintext_tag_rules": {
+			"tag_name": "categorytree"
+		},
+		"WikitextLexer.delegate_tag_rules": {
+			"tag_name": "math",
+			"lexer": "NOT_PRIMITIVE",
+			"state": "math"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pygments/style.py": {
+		"StyleMeta.__new__.<locals>.colorformat": {
+			"text": "#bbbbbb"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/importlib_metadata/_compat.py": {
+		"pypy_partial": {
+			"val": 2
+		},
+		"NullFinder.find_spec": {
+			"*args": [
+				"Levenshtein",
+				"NOT_PRIMITIVE",
+				"NOT_PRIMITIVE"
+			]
+		}
+	},
+	"/usr/lib/python3.8/textwrap.py": {
+		"dedent": {
+			"text": "\n        [sec1]\n        # comments ignored\n        a = 1\n        b = 2\n\n        [sec2]\n        a = 2\n        "
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/docscrape.py": {
+		"Reader.peek": {
+			"self": "NOT_PRIMITIVE",
+			"n": 0
+		},
+		"Reader.read_to_next_unindented_line.<locals>.is_unindented": {
+			"line": "    The number of apples."
+		},
+		"NumpyDocString._parse_see_also.<locals>.parse_item_name": {
+			"text": "some, other, funcs"
+		},
+		"ClassDoc.__init__.<locals>.splitlines_x": {
+			"s": "local class, to be ignored"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/mark/structures.py": {
+		"MarkDecorator.with_args": {
+			"self": "NOT_PRIMITIVE",
+			"*args": [
+				"prefix",
+				"NOT_PRIMITIVE"
+			]
+		},
+		"store_mark": {
+			"obj": "NOT_PRIMITIVE",
+			"mark": "NOT_PRIMITIVE",
+			"stacklevel": 3
+		},
+		"get_unpacked_marks": {
+			"obj": "NOT_PRIMITIVE",
+			"consider_mro": false
+		},
+		"ParameterSet.extract_from": {
+			"parameterset": "",
+			"force_tuple": true
+		},
+		"ParameterSet.param": {
+			"*args": [
+				""
+			],
+			"marks": "NOT_PRIMITIVE",
+			"id": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/anyio/pytest_plugin.py": {
+		"pytest_pycollect_makeitem": {
+			"collector": "NOT_PRIMITIVE",
+			"name": "@py_builtins",
+			"obj": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/python.py": {
+		"PyCollector.istestfunction": {
+			"self": "NOT_PRIMITIVE",
+			"obj": "NOT_PRIMITIVE",
+			"name": "@py_builtins"
+		},
+		"PyCollector.funcnamefilter": {
+			"self": "NOT_PRIMITIVE",
+			"name": "@py_builtins"
+		},
+		"pytest_pycollect_makeitem": {
+			"collector": "NOT_PRIMITIVE",
+			"name": "@py_builtins",
+			"obj": "NOT_PRIMITIVE"
+		},
+		"PyCollector.istestclass": {
+			"self": "NOT_PRIMITIVE",
+			"obj": "NOT_PRIMITIVE",
+			"name": "NumpyDocString"
+		},
+		"PyCollector.classnamefilter": {
+			"self": "NOT_PRIMITIVE",
+			"name": "NumpyDocString"
+		},
+		"Function.from_parent": {
+			"parent": "NOT_PRIMITIVE",
+			"name": "test_signature",
+			"callobj": "NOT_PRIMITIVE"
+		},
+		"Metafunc.parametrize": {
+			"self": "NOT_PRIMITIVE",
+			"argnames": "doc",
+			"argvalues": "NOT_PRIMITIVE",
+			"indirect": true,
+			"ids": "NOT_PRIMITIVE",
+			"scope": "function",
+			"_param_mark": "NOT_PRIMITIVE"
+		},
+		"CallSpec2.setmulti": {
+			"self": "NOT_PRIMITIVE",
+			"argnames": "NOT_PRIMITIVE",
+			"valset": "NOT_PRIMITIVE",
+			"id": "flush",
+			"marks": "NOT_PRIMITIVE",
+			"scope": "NOT_PRIMITIVE",
+			"param_index": 0
+		},
+		"PyobjMixin.getmodpath": {
+			"self": "NOT_PRIMITIVE",
+			"stopatmodule": true,
+			"includemodule": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/unittest.py": {
+		"pytest_pycollect_makeitem": {
+			"collector": "NOT_PRIMITIVE",
+			"name": "@py_builtins",
+			"obj": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/nodes.py": {
+		"Node.iter_markers": {
+			"self": "NOT_PRIMITIVE",
+			"name": "usefixtures"
+		},
+		"Node.iter_markers_with_node": {
+			"self": "NOT_PRIMITIVE",
+			"name": "usefixtures"
+		},
+		"Item.add_report_section": {
+			"self": "NOT_PRIMITIVE",
+			"when": "setup",
+			"key": "stdout",
+			"content": "Was this exception triggered by total_timeout? not enough values to unpack (expected 3, got 2)\n[FIRST_NO_CONSTR]: After First execution, no constr to solve\n"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/mark/__init__.py": {
+		"ParameterSet.param": {
+			"*args": [
+				"utf-8"
+			],
+			"marks": "NOT_PRIMITIVE",
+			"id": "utf8_codec"
+		}
+	},
+	"/usr/lib/python3.8/linecache.py": {
+		"checkcache": {
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_validate.py"
+		},
+		"getlines": {
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_validate.py",
+			"module_globals": "NOT_PRIMITIVE"
+		},
+		"updatecache": {
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_validate.py",
+			"module_globals": "NOT_PRIMITIVE"
+		}
+	},
+	"/usr/lib/python3.8/tokenize.py": {
+		"open": {
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_validate.py"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/_code/source.py": {
+		"getrawcode": {
+			"obj": "NOT_PRIMITIVE",
+			"trycall": true
+		},
+		"getstatementrange_ast": {
+			"lineno": 8,
+			"source": "NOT_PRIMITIVE",
+			"assertion": false,
+			"astnode": "NOT_PRIMITIVE"
+		},
+		"get_statement_startend2": {
+			"lineno": 8,
+			"node": "NOT_PRIMITIVE"
+		},
+		"Source.getstatement": {
+			"self": "NOT_PRIMITIVE",
+			"lineno": 25
+		},
+		"Source.getstatementrange": {
+			"self": "NOT_PRIMITIVE",
+			"lineno": 25
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/python_api.py": {
+		"raises": {
+			"expected_exception": "NOT_PRIMITIVE",
+			"*args": [
+				"NOT_PRIMITIVE",
+				"\nTest having returns and yields.\n\nReturns\n-------\nint\n    The number of apples.\n\nYields\n------\na : int\n    The number of apples.\nb : int\n    The number of bananas.\n\n"
+			]
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/_code/code.py": {
+		"ExceptionInfo.match": {
+			"self": "NOT_PRIMITIVE",
+			"regexp": "The section Notes appears twice"
+		},
+		"ExceptionInfo.getrepr": {
+			"self": "NOT_PRIMITIVE",
+			"showlocals": false,
+			"style": "short",
+			"abspath": false,
+			"tbfilter": "NOT_PRIMITIVE",
+			"funcargs": true,
+			"truncate_locals": true,
+			"chain": true
+		},
+		"TracebackEntry.with_repr_style": {
+			"self": "NOT_PRIMITIVE",
+			"repr_style": "short"
+		},
+		"Frame.getargs": {
+			"self": "NOT_PRIMITIVE",
+			"var": true
+		},
+		"FormattedExcinfo.get_source": {
+			"self": "NOT_PRIMITIVE",
+			"source": "NOT_PRIMITIVE",
+			"line_index": 8,
+			"excinfo": "NOT_PRIMITIVE",
+			"short": false
+		},
+		"FormattedExcinfo.get_exconly": {
+			"self": "NOT_PRIMITIVE",
+			"excinfo": "NOT_PRIMITIVE",
+			"indent": 12,
+			"markall": true
+		},
+		"ExceptionInfo.exconly": {
+			"self": "NOT_PRIMITIVE",
+			"tryshort": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/jinja2/loaders.py": {
+		"ModuleLoader.load": {
+			"self": "NOT_PRIMITIVE",
+			"environment": "NOT_PRIMITIVE",
+			"name": "numpydoc_docstring.rst",
+			"globals": "NOT_PRIMITIVE"
+		},
+		"BaseLoader.get_source": {
+			"self": "NOT_PRIMITIVE",
+			"environment": "NOT_PRIMITIVE",
+			"template": "numpydoc_docstring.rst"
+		},
+		"split_template_path": {
+			"template": "numpydoc_docstring.rst"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/jinja2/lexer.py": {
+		"Lexer.__init__.<locals>.c": {
+			"x": "(.*?)(?:(?P<raw_begin>\\{%(\\-|\\+|)\\s*raw\\s*(?:\\-%\\}\\s*|%\\}))|(?P<variable_begin>\\{\\{(\\-|\\+|))|(?P<comment_begin>\\{\\#(\\-|\\+|))|(?P<block_begin>\\{%(\\-|\\+|)))"
+		},
+		"Lexer.tokenize": {
+			"self": "NOT_PRIMITIVE",
+			"source": "{{index}}\n{{summary}}\n{{extended_summary}}\n{{parameters}}\n{{returns}}\n{{yields}}\n{{receives}}\n{{other_parameters}}\n{{raises}}\n{{warns}}\n{{warnings}}\n{{see_also}}\n{{notes}}\n{{references}}\n{{examples}}\n{{attributes}}\n{{methods}}\n",
+			"name": "numpydoc_docstring.rst",
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/templates/numpydoc_docstring.rst",
+			"state": "NOT_PRIMITIVE"
+		},
+		"Lexer.wrap": {
+			"self": "NOT_PRIMITIVE",
+			"stream": "NOT_PRIMITIVE",
+			"name": "numpydoc_docstring.rst",
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/templates/numpydoc_docstring.rst"
+		},
+		"Lexer.tokeniter": {
+			"self": "NOT_PRIMITIVE",
+			"source": "{{index}}\n{{summary}}\n{{extended_summary}}\n{{parameters}}\n{{returns}}\n{{yields}}\n{{receives}}\n{{other_parameters}}\n{{raises}}\n{{warns}}\n{{warnings}}\n{{see_also}}\n{{notes}}\n{{references}}\n{{examples}}\n{{attributes}}\n{{methods}}\n",
+			"name": "numpydoc_docstring.rst",
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/templates/numpydoc_docstring.rst",
+			"state": "NOT_PRIMITIVE"
+		},
+		"Token.test": {
+			"self": "NOT_PRIMITIVE",
+			"expr": "name:not"
+		},
+		"TokenStream.skip_if": {
+			"self": "NOT_PRIMITIVE",
+			"expr": "name:in"
+		},
+		"TokenStream.next_if": {
+			"self": "NOT_PRIMITIVE",
+			"expr": "name:in"
+		},
+		"TokenStream.expect": {
+			"self": "NOT_PRIMITIVE",
+			"expr": "variable_end"
+		}
+	},
+	"/usr/lib/python3.8/calendar.py": {
+		"Calendar.setfirstweekday": {
+			"self": "NOT_PRIMITIVE",
+			"firstweekday": 0
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pytz/tzfile.py": {
+		"build_tzinfo": {
+			"zone": "Asia/Taipei",
+			"fp": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/jinja2/parser.py": {
+		"Parser.parse_tuple": {
+			"self": "NOT_PRIMITIVE",
+			"simplified": false,
+			"with_condexpr": true,
+			"extra_end_rules": "NOT_PRIMITIVE",
+			"explicit_parentheses": false
+		},
+		"Parser.parse_expression": {
+			"self": "NOT_PRIMITIVE",
+			"with_condexpr": true
+		},
+		"Parser.parse_unary": {
+			"self": "NOT_PRIMITIVE",
+			"with_filter": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/jinja2/compiler.py": {
+		"generate": {
+			"node": "NOT_PRIMITIVE",
+			"environment": "NOT_PRIMITIVE",
+			"name": "numpydoc_docstring.rst",
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/templates/numpydoc_docstring.rst",
+			"stream": "NOT_PRIMITIVE",
+			"defer_init": false,
+			"optimized": true
+		},
+		"CodeGenerator.writeline": {
+			"self": "NOT_PRIMITIVE",
+			"x": "from jinja2.runtime import LoopContext, Macro, Markup, Namespace, TemplateNotFound, TemplateReference, TemplateRuntimeError, Undefined, escape, identity, internalcode, markup_join, missing, str_join",
+			"node": "NOT_PRIMITIVE",
+			"extra": 0
+		},
+		"CodeGenerator.newline": {
+			"self": "NOT_PRIMITIVE",
+			"node": "NOT_PRIMITIVE",
+			"extra": 0
+		},
+		"CodeGenerator.write": {
+			"self": "NOT_PRIMITIVE",
+			"x": "from jinja2.runtime import LoopContext, Macro, Markup, Namespace, TemplateNotFound, TemplateReference, TemplateRuntimeError, Undefined, escape, identity, internalcode, markup_join, missing, str_join"
+		},
+		"CodeGenerator.func": {
+			"self": "NOT_PRIMITIVE",
+			"name": "root"
+		},
+		"CodeGenerator.choose_async": {
+			"self": "NOT_PRIMITIVE",
+			"async_value": "async ",
+			"sync_value": ""
+		},
+		"CodeGenerator.leave_frame": {
+			"self": "NOT_PRIMITIVE",
+			"frame": "NOT_PRIMITIVE",
+			"with_python_scope": true
+		},
+		"CodeGenerator.outdent": {
+			"self": "NOT_PRIMITIVE",
+			"step": 1
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/jinja2/idtracking.py": {
+		"FrameSymbolVisitor.visit_Name": {
+			"self": "NOT_PRIMITIVE",
+			"node": "NOT_PRIMITIVE",
+			"store_as_param": false
+		},
+		"Symbols.load": {
+			"self": "NOT_PRIMITIVE",
+			"name": "index"
+		},
+		"Symbols.find_ref": {
+			"self": "NOT_PRIMITIVE",
+			"name": "index"
+		},
+		"Symbols.ref": {
+			"self": "NOT_PRIMITIVE",
+			"name": "index"
+		},
+		"Symbols.find_load": {
+			"self": "NOT_PRIMITIVE",
+			"target": "l_0_index"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_docscrape.py": {
+		"line_by_line_compare": {
+			"a": "numpy.multivariate_normal(mean, cov, shape=None, spam=None)\n\nDraw values from a multivariate normal distribution with specified\nmean and covariance.\n\nThe multivariate normal or Gaussian distribution is a generalisation\nof the one-dimensional normal distribution to higher dimensions.\n\nParameters\n----------\nmean : (N,) ndarray\n    Mean of the N-dimensional distribution.\n    \n    .. math::\n    \n       (1+2+3)/3\ncov : (N, N) ndarray\n    Covariance matrix of the distribution.\nshape : tuple of ints\n    Given a shape of, for example, (m,n,k), m*n*k samples are\n    generated, and packed in an m-by-n-by-k arrangement.  Because\n    each sample is N-dimensional, the output shape is (m,n,k,N).\ndtype : data type object, optional (default : float)\n    The type and size of the data to be returned.\n\nReturns\n-------\nout : ndarray\n    The drawn samples, arranged according to `shape`.  If the\n    shape given is (m,n,...), then the shape of `out` is\n    (m,n,...,N).\n    \n    In other words, each entry ``out[i,j,...,:]`` is an N-dimensional\n    value drawn from the distribution.\nlist of str\n    This is not a real return value.  It exists to test\n    anonymous return values.\nno_description\n\nOther Parameters\n----------------\nspam : parrot\n    A parrot off its mortal coil.\n\nRaises\n------\nRuntimeError\n    Some error\n\nWarns\n-----\nRuntimeWarning\n    Some warning\n\nWarnings\n--------\nCertain warnings apply.\n\nSee Also\n--------\n\n`some`_, `other`_, `funcs`_\n    ..\n`otherfunc`_\n    relationship\n:py:meth:`spyder.widgets.mixins.GetHelpMixin.show_object_info`\n    ..\n\nNotes\n-----\nInstead of specifying the full covariance matrix, popular\napproximations include:\n\n  - Spherical covariance (`cov` is a multiple of the identity matrix)\n  - Diagonal covariance (`cov` has non-negative elements only on the diagonal)\n\nThis geometrical property can be seen in two dimensions by plotting\ngenerated data-points:\n\n>>> mean = [0,0]\n>>> cov = [[1,0],[0,100]] # diagonal covariance, points lie on x or y-axis\n\n>>> x,y = multivariate_normal(mean,cov,5000).T\n>>> plt.plot(x,y,'x'); plt.axis('equal'); plt.show()\n\nNote that the covariance matrix must be symmetric and non-negative\ndefinite.\n\nReferences\n----------\n.. [1] A. Papoulis, \"Probability, Random Variables, and Stochastic\n       Processes,\" 3rd ed., McGraw-Hill Companies, 1991\n.. [2] R.O. Duda, P.E. Hart, and D.G. Stork, \"Pattern Classification,\"\n       2nd ed., Wiley, 2001.\n\nExamples\n--------\n>>> mean = (1,2)\n>>> cov = [[1,0],[1,0]]\n>>> x = multivariate_normal(mean,cov,(3,3))\n>>> print(x.shape)\n(3, 3, 2)\n\nThe following is probably true, given that 0.6 is roughly twice the\nstandard deviation:\n\n>>> print(list((x[0, 0, :] - mean) < 0.6))\n[True, True]\n\n.. index:: random\n   :refguide: random;distributions, random;gauss",
+			"b": "numpy.multivariate_normal(mean, cov, shape=None, spam=None)\n\nDraw values from a multivariate normal distribution with specified\nmean and covariance.\n\nThe multivariate normal or Gaussian distribution is a generalisation\nof the one-dimensional normal distribution to higher dimensions.\n\nParameters\n----------\nmean : (N,) ndarray\n    Mean of the N-dimensional distribution.\n\n    .. math::\n\n       (1+2+3)/3\ncov : (N, N) ndarray\n    Covariance matrix of the distribution.\nshape : tuple of ints\n    Given a shape of, for example, (m,n,k), m*n*k samples are\n    generated, and packed in an m-by-n-by-k arrangement.  Because\n    each sample is N-dimensional, the output shape is (m,n,k,N).\ndtype : data type object, optional (default : float)\n    The type and size of the data to be returned.\n\nReturns\n-------\nout : ndarray\n    The drawn samples, arranged according to `shape`.  If the\n    shape given is (m,n,...), then the shape of `out` is\n    (m,n,...,N).\n\n    In other words, each entry ``out[i,j,...,:]`` is an N-dimensional\n    value drawn from the distribution.\nlist of str\n    This is not a real return value.  It exists to test\n    anonymous return values.\nno_description\n\nOther Parameters\n----------------\nspam : parrot\n    A parrot off its mortal coil.\n\nRaises\n------\nRuntimeError\n    Some error\n\nWarns\n-----\nRuntimeWarning\n    Some warning\n\nWarnings\n--------\nCertain warnings apply.\n\nSee Also\n--------\n\n`some`_, `other`_, `funcs`_\n    ..\n`otherfunc`_\n    relationship\n:py:meth:`spyder.widgets.mixins.GetHelpMixin.show_object_info`\n    ..\n\nNotes\n-----\nInstead of specifying the full covariance matrix, popular\napproximations include:\n\n  - Spherical covariance (`cov` is a multiple of the identity matrix)\n  - Diagonal covariance (`cov` has non-negative elements only on the diagonal)\n\nThis geometrical property can be seen in two dimensions by plotting\ngenerated data-points:\n\n>>> mean = [0,0]\n>>> cov = [[1,0],[0,100]] # diagonal covariance, points lie on x or y-axis\n\n>>> x,y = multivariate_normal(mean,cov,5000).T\n>>> plt.plot(x,y,'x'); plt.axis('equal'); plt.show()\n\nNote that the covariance matrix must be symmetric and non-negative\ndefinite.\n\nReferences\n----------\n.. [1] A. Papoulis, \"Probability, Random Variables, and Stochastic\n       Processes,\" 3rd ed., McGraw-Hill Companies, 1991\n.. [2] R.O. Duda, P.E. Hart, and D.G. Stork, \"Pattern Classification,\"\n       2nd ed., Wiley, 2001.\n\nExamples\n--------\n>>> mean = (1,2)\n>>> cov = [[1,0],[1,0]]\n>>> x = multivariate_normal(mean,cov,(3,3))\n>>> print(x.shape)\n(3, 3, 2)\n\nThe following is probably true, given that 0.6 is roughly twice the\nstandard deviation:\n\n>>> print(list((x[0, 0, :] - mean) < 0.6))\n[True, True]\n\n.. index:: random\n   :refguide: random;distributions, random;gauss",
+			"n_lines": "NOT_PRIMITIVE"
+		},
+		"test_see_also": {
+			"prefix": ""
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/jinja2/runtime.py": {
+		"new_context": {
+			"environment": "NOT_PRIMITIVE",
+			"template_name": "numpydoc_docstring.rst",
+			"blocks": "NOT_PRIMITIVE",
+			"vars": "NOT_PRIMITIVE",
+			"shared": false,
+			"globals": "NOT_PRIMITIVE",
+			"locals": "NOT_PRIMITIVE"
+		},
+		"Context.resolve_or_missing": {
+			"self": "NOT_PRIMITIVE",
+			"key": "index"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/recwarn.py": {
+		"warns": {
+			"expected_warning": "NOT_PRIMITIVE",
+			"match": "Unexpected comma or period after function list at index 43 of line .*"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/xref.py": {
+		"make_xref": {
+			"param_type": "int",
+			"xref_aliases": "NOT_PRIMITIVE",
+			"xref_ignore": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/_py/path.py": {
+		"LocalPath.join": {
+			"self": "NOT_PRIMITIVE",
+			"*args": [
+				"root"
+			],
+			"abs": false
+		}
+	},
+	"/usr/lib/python3.8/shutil.py": {
+		"copytree": {
+			"src": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/tinybuild",
+			"dst": "/tmp/pytest-of-soslab/pytest-6/root",
+			"symlinks": false,
+			"ignore": "NOT_PRIMITIVE",
+			"copy_function": "NOT_PRIMITIVE",
+			"ignore_dangling_symlinks": false,
+			"dirs_exist_ok": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_full.py": {
+		"sphinx_app.<locals>.ignore": {
+			"src": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/tinybuild",
+			"names": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/_io/saferepr.py": {
+		"saferepr": {
+			"obj": "NOT_PRIMITIVE",
+			"maxsize": 240,
+			"use_ascii": false
+		},
+		"SafeRepr.repr_instance": {
+			"self": "NOT_PRIMITIVE",
+			"x": "NOT_PRIMITIVE",
+			"level": 6
+		}
+	},
+	"/usr/lib/python3.8/traceback.py": {
+		"StackSummary.extract": {
+			"frame_gen": "NOT_PRIMITIVE",
+			"limit": "NOT_PRIMITIVE",
+			"lookup_lines": true,
+			"capture_locals": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/__main__.py": {
+		"render_object": {
+			"import_path": "numpydoc",
+			"config": "NOT_PRIMITIVE"
+		},
+		"validate_object": {
+			"import_path": "numpydoc.tests.test_main._docstring_with_errors"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/assertion/util.py": {
+		"format_explanation": {
+			"explanation": "assert False\n{False = <built-in method startswith of str object at 0x34c6370>\n{<built-in method startswith of str object at 0x34c6370> = '[DEBUG]Finding model ... \\nunsat\\n[DEBUG]Finding model ... \\nsat\\n[DEBUG]Finding model ... \\nsolver error: (error \"pa...provides the numpydoc Sphinx extension for handling docstrings\\nformatted according to the NumPy documentation format.'.startswith\n}('This package provides the numpydoc Sphinx')\n}"
+		},
+		"assertrepr_compare": {
+			"config": "NOT_PRIMITIVE",
+			"op": "==",
+			"left": "[FIRST_NO_CONSTR]: After First execution, no constr to solve",
+			"right": "",
+			"use_ascii": false
+		},
+		"istext": {
+			"x": "[FIRST_NO_CONSTR]: After First execution, no constr to solve"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/validate.py": {
+		"validate": {
+			"obj_name": "numpydoc.tests.test_main._docstring_with_errors",
+			"validator_cls": "NOT_PRIMITIVE"
+		},
+		"extract_ignore_validation_comments": {
+			"filepath": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_main.py",
+			"encoding": "utf-8"
+		},
+		"error": {
+			"code": "SS02"
+		},
+		"Validator.parameter_type": {
+			"self": "NOT_PRIMITIVE",
+			"param": "made_up_param"
+		},
+		"Validator.signature_parameters.<locals>.add_stars": {
+			"param_name": "func_name",
+			"info": "NOT_PRIMITIVE"
+		}
+	},
+	"/usr/lib/python3.8/difflib.py": {
+		"SequenceMatcher.find_longest_match": {
+			"self": "NOT_PRIMITIVE",
+			"alo": 0,
+			"ahi": 0,
+			"blo": 0,
+			"bhi": 1
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/numpydoc.py": {
+		"mangle_docstrings": {
+			"app": "NOT_PRIMITIVE",
+			"what": "class",
+			"name": "str",
+			"obj": "NOT_PRIMITIVE",
+			"options": "NOT_PRIMITIVE",
+			"lines": "NOT_PRIMITIVE"
+		},
+		"rename_references": {
+			"app": "NOT_PRIMITIVE",
+			"what": "class",
+			"name": "str",
+			"obj": "NOT_PRIMITIVE",
+			"options": "NOT_PRIMITIVE",
+			"lines": "NOT_PRIMITIVE"
+		},
+		"clean_backrefs": {
+			"app": "NOT_PRIMITIVE",
+			"doc": "NOT_PRIMITIVE",
+			"docname": "index"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/sphinx/jinja2glue.py": {
+		"BuiltinTemplateLoader.get_source": {
+			"self": "NOT_PRIMITIVE",
+			"environment": "NOT_PRIMITIVE",
+			"template": "numpydoc_docstring.rst"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/jinja2/utils.py": {
+		"open_if_exists": {
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/templates/numpydoc_docstring.rst",
+			"mode": "rb"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/docutils/nodes.py": {
+		"Node.findall": {
+			"self": "NOT_PRIMITIVE",
+			"condition": "NOT_PRIMITIVE",
+			"include_self": true,
+			"descend": true,
+			"siblings": false,
+			"ascend": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_validate.py": {
+		"test_extract_ignore_validation_comments": {
+			"tmp_path": "NOT_PRIMITIVE",
+			"file_contents": "class MyClass:\n    pass",
+			"expected": "NOT_PRIMITIVE"
+		},
+		"test_encodings": {
+			"tmp_path": "NOT_PRIMITIVE",
+			"classname": "M\u00ffClass",
+			"actual_encoding": "cp1252",
+			"assumed_encoding": "utf-8"
+		},
+		"TestValidator.test_good_functions": {
+			"self": "NOT_PRIMITIVE",
+			"capsys": "NOT_PRIMITIVE",
+			"func": "plot"
+		},
+		"TestValidator.test_bad_generic_functions": {
+			"self": "NOT_PRIMITIVE",
+			"capsys": "NOT_PRIMITIVE",
+			"func": "func"
+		},
+		"TestValidator.test_bad_docstrings": {
+			"self": "NOT_PRIMITIVE",
+			"capsys": "NOT_PRIMITIVE",
+			"klass": "BadGenericDocStrings",
+			"func": "unknown_section",
+			"msgs": "NOT_PRIMITIVE"
+		},
+		"TestValidatorClass.test_raises_for_invalid_module_name": {
+			"self": "NOT_PRIMITIVE",
+			"invalid_name": "unknown_mod"
+		},
+		"TestValidatorClass.test_raises_for_invalid_attribute_name": {
+			"self": "NOT_PRIMITIVE",
+			"invalid_name": "datetime.BadClassName"
+		},
+		"TestValidatorClass.test_source_file_def_line_with_decorators": {
+			"self": "NOT_PRIMITIVE",
+			"decorated_obj": "numpydoc.tests.test_validate.DecoratorClass",
+			"def_line": 1586
+		},
+		"TestValidatorClass.test_source_file_name_with_properties": {
+			"self": "NOT_PRIMITIVE",
+			"property": "numpydoc.tests.test_validate.DecoratorClass.test_property",
+			"file_name": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_validate.py"
+		}
+	},
+	"/usr/lib/python3.8/_bootlocale.py": {
+		"getpreferredencoding": {
+			"do_setlocale": false
+		}
+	},
+	"/usr/lib/python3.8/encodings/cp1252.py": {
+		"Codec.encode": {
+			"self": "NOT_PRIMITIVE",
+			"input": "class M\u00ffClass:\n    pass",
+			"errors": "strict"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/tests/test_xref.py": {
+		"test_make_xref": {
+			"param_type": "(...) array_like, float, optional",
+			"expected_result": "(...) :term:`numpy:array_like`, :class:`python:float`, optional"
+		},
+		"test_make_xref_ignore_unknown": {
+			"param_type": "(...) array_like, float, optional",
+			"expected_result": "(...) :term:`numpy:array_like`, :class:`python:float`, optional"
+		}
+	},
+	"/usr/lib/python3.8/json/encoder.py": {
+		"JSONEncoder.iterencode": {
+			"self": "NOT_PRIMITIVE",
+			"o": "NOT_PRIMITIVE",
+			"_one_shot": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pygments/lexer.py": {
+		"RegexLexerMeta.process_tokendef": {
+			"name": "",
+			"tokendefs": "NOT_PRIMITIVE"
+		},
+		"Lexer.get_tokens": {
+			"self": "NOT_PRIMITIVE",
+			"text": "@pytest.fixture(scope=\"module\")\ndef sphinx_app(tmpdir_factory):\n    temp_dir = (tmpdir_factory.getbasetemp() / \"root\").strpath\n    src_dir = op.join(op.dirname(__file__), \"tinybuild\")\n\n    def ignore(src, names):\n        return (\"_build\", \"generated\")\n\n    shutil.copytree(src_dir, temp_dir, ignore=ignore)",
+			"unfiltered": false
+		},
+		"ProfilingRegexLexer.get_tokens_unprocessed": {
+			"self": "NOT_PRIMITIVE",
+			"text": "@pytest.fixture(scope=\"module\")\ndef sphinx_app(tmpdir_factory):\n    temp_dir = (tmpdir_factory.getbasetemp() / \"root\").strpath\n    src_dir = op.join(op.dirname(__file__), \"tinybuild\")\n\n    def ignore(src, names):\n        return (\"_build\", \"generated\")\n\n    shutil.copytree(src_dir, temp_dir, ignore=ignore)\n",
+			"stack": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pygments/regexopt.py": {
+		"regex_opt": {
+			"strings": "NOT_PRIMITIVE",
+			"prefix": "",
+			"suffix": "\\b"
+		},
+		"regex_opt_inner": {
+			"strings": "NOT_PRIMITIVE",
+			"open_paren": "("
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pygments/util.py": {
+		"get_bool_opt": {
+			"options": "NOT_PRIMITIVE",
+			"optname": "stripnl",
+			"default": true
+		},
+		"get_int_opt": {
+			"options": "NOT_PRIMITIVE",
+			"optname": "tabsize",
+			"default": 0
+		},
+		"get_list_opt": {
+			"options": "NOT_PRIMITIVE",
+			"optname": "filters",
+			"default": "NOT_PRIMITIVE"
+		},
+		"get_choice_opt": {
+			"options": "NOT_PRIMITIVE",
+			"optname": "bg",
+			"allowed": "NOT_PRIMITIVE",
+			"default": "light",
+			"normcase": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pygments/__init__.py": {
+		"highlight": {
+			"code": "@pytest.fixture(scope=\"module\")\ndef sphinx_app(tmpdir_factory):\n    temp_dir = (tmpdir_factory.getbasetemp() / \"root\").strpath\n    src_dir = op.join(op.dirname(__file__), \"tinybuild\")\n\n    def ignore(src, names):\n        return (\"_build\", \"generated\")\n\n    shutil.copytree(src_dir, temp_dir, ignore=ignore)",
+			"lexer": "NOT_PRIMITIVE",
+			"formatter": "NOT_PRIMITIVE",
+			"outfile": "NOT_PRIMITIVE"
+		},
+		"lex": {
+			"code": "@pytest.fixture(scope=\"module\")\ndef sphinx_app(tmpdir_factory):\n    temp_dir = (tmpdir_factory.getbasetemp() / \"root\").strpath\n    src_dir = op.join(op.dirname(__file__), \"tinybuild\")\n\n    def ignore(src, names):\n        return (\"_build\", \"generated\")\n\n    shutil.copytree(src_dir, temp_dir, ignore=ignore)",
+			"lexer": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pygments/console.py": {
+		"ansiformat": {
+			"attr": "gray",
+			"text": "@pytest"
+		}
+	}
+}

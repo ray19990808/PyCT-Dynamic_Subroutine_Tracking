@@ -1,0 +1,3779 @@
+{
+    "transformers.configuration_utils": {
+        "update_from_string": {
+            "self": {
+                "type": "GPT2Config",
+                "value": "[Serialized]"
+            },
+            "update_str": {
+                "type": "str",
+                "value": "n_embd=769,resid_pdrop=1.1,scale_attn_weights=False,summary_type=cls_indexfoo"
+            }
+        }
+    },
+    "unittest.case": {
+        "assertTrue": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            },
+            "expr": {
+                "type": "bool",
+                "value": true
+            }
+        },
+        "assertRaisesRegex": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            },
+            "expected_exception": {
+                "type": "type",
+                "value": "[Serialized]"
+            },
+            "expected_regex": {
+                "type": "str",
+                "value": "The state dictionary of the model you are trying to load is corrupted."
+            }
+        },
+        "assertFalse": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            },
+            "expr": {
+                "type": "bool",
+                "value": false
+            }
+        },
+        "assertSetEqual": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            },
+            "set1": {
+                "type": "set",
+                "value": "[Serialized]"
+            },
+            "set2": {
+                "type": "set",
+                "value": "[Serialized]"
+            }
+        },
+        "assertRaises": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            },
+            "expected_exception": {
+                "type": "type",
+                "value": "[Serialized]"
+            }
+        },
+        "assertIsNotNone": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            },
+            "obj": {
+                "type": "BertModel",
+                "value": "[Serialized]"
+            }
+        },
+        "assertMultiLineEqual": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            },
+            "first": {
+                "type": "str",
+                "value": "float16"
+            },
+            "second": {
+                "type": "str",
+                "value": "float16"
+            },
+            "msg": {
+                "type": "NoneType",
+                "value": null
+            }
+        },
+        "assertIsInstance": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            },
+            "obj": {
+                "type": "str",
+                "value": "float16"
+            },
+            "cls": {
+                "type": "type",
+                "value": "[Serialized]"
+            },
+            "msg": {
+                "type": "str",
+                "value": "First argument is not a string"
+            }
+        },
+        "assertNotEqual": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            },
+            "first": {
+                "type": "NoneType",
+                "value": null
+            },
+            "second": {
+                "type": "str",
+                "value": "auto"
+            }
+        },
+        "subTest": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            },
+            "msg": {
+                "type": "str",
+                "value": "No shard when max size is bigger than model size"
+            }
+        },
+        "assertIsNone": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            },
+            "obj": {
+                "type": "NoneType",
+                "value": null
+            }
+        },
+        "assertDictEqual": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            },
+            "d1": {
+                "type": "dict",
+                "value": "[Serialized]"
+            },
+            "d2": {
+                "type": "dict",
+                "value": "[Serialized]"
+            }
+        },
+        "assertIn": {
+            "self": {
+                "type": "DependencyVersionCheckTest",
+                "value": "[Not Serializable]"
+            },
+            "member": {
+                "type": "str",
+                "value": "numpy==1.0.0 is required"
+            },
+            "container": {
+                "type": "str",
+                "value": "numpy==1.0.0 is required for a normal functioning of this module, but found numpy==1.23.5.\nTry: pip install transformers -U or pip install -e '.[dev]' if you're working with git main"
+            }
+        },
+        "fail": {
+            "self": {
+                "type": "OfflineTests",
+                "value": "[Not Serializable]"
+            },
+            "msg": {
+                "type": "str",
+                "value": "'You cannot infer task automatically within `pipeline` when using offline mode' not found in 'Traceback (most recent call last):  File \"<string>\", line 2, in <module>  File \"/home/jack/coverage/transformers/src/transformers/__init__.py\", line 26, in <module>    from . import dependency_versions_check  File \"/home/jack/coverage/transformers/src/transformers/dependency_versions_check.py\", line 17, in <module>    from .utils.versions import require_version, require_version_core  File \"/home/jack/coverage/transformers/src/transformers/utils/__init__.py\", line 30, in <module>    from .generic import (  File \"/home/jack/coverage/transformers/src/transformers/utils/generic.py\", line 33, in <module>    import jax.numpy as jnp  File \"/home/jack/anaconda3/envs/transformers/lib/python3.8/site-packages/jax/__init__.py\", line 122, in <module>    from jax.experimental.maps import soft_pmap as soft_pmap  File \"/home/jack/anaconda3/envs/transformers/lib/python3.8/site-packages/jax/experimental/maps.py\", line 26, in <module>    from jax import numpy as jnp  File \"/home/jack/anaconda3/envs/transformers/lib/python3.8/site-packages/jax/numpy/__init__.py\", line 456, in <module>    _init()  File \"/home/jack/anaconda3/envs/transformers/lib/python3.8/site-packages/jax/numpy/__init__.py\", line 451, in _init    for name, func in util.get_module_functions(np).items():  File \"/home/jack/anaconda3/envs/transformers/lib/python3.8/site-packages/jax/_src/util.py\", line 353, in get_module_functions    attr = getattr(module, key)  File \"/home/jack/anaconda3/envs/transformers/lib/python3.8/site-packages/numpy/__init__.py\", line 308, in __getattr__    from .testing import Tester  File \"/home/jack/anaconda3/envs/transformers/lib/python3.8/site-packages/numpy/testing/__init__.py\", line 8, in <module>    from unittest import TestCase  File \"/home/jack/anaconda3/envs/transformers/lib/python3.8/unittest/__init__.py\", line 60, in <module>    from .async_case import IsolatedAsyncioTestCase  File \"/home/jack/anaconda3/envs/transformers/lib/python3.8/unittest/async_case.py\", line 4, in <module>    from .case import TestCase  File \"/home/jack/anaconda3/envs/transformers/lib/python3.8/unittest/case.py\", line 18, in <module>    import arg_wrapper.arg_wrapper as arg_wrapperModuleNotFoundError: No module named \\'arg_wrapper.arg_wrapper\\'; \\'arg_wrapper\\' is not a package'"
+            }
+        }
+    },
+    "transformers.testing_utils": {
+        "python_one_liner_max_rss": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            },
+            "one_liner_str": {
+                "type": "str",
+                "value": "from transformers import AutoModel; AutoModel.from_pretrained(\"bert-base-cased\", low_cpu_mem_usage=False)"
+            }
+        },
+        "get_env": {
+            "self": {
+                "type": "ModelUtilsTest",
+                "value": "[Not Serializable]"
+            }
+        },
+        "new_request": {
+            "self": {
+                "type": "RequestCounter",
+                "value": "[Not Serializable]"
+            },
+            "method": {
+                "type": "str",
+                "value": "HEAD"
+            },
+            "url": {
+                "type": "str",
+                "value": "https://huggingface.co/hf-internal-testing/tiny-random-bert/resolve/main/config.json"
+            },
+            "timeout": {
+                "type": "int",
+                "value": 10
+            },
+            "headers": {
+                "type": "dict",
+                "value": {
+                    "user-agent": "unknown/None; hf_hub/0.14.1; python/3.8.16; torch/2.0.0; tensorflow/2.11.1",
+                    "Accept-Encoding": "identity"
+                }
+            },
+            "allow_redirects": {
+                "type": "bool",
+                "value": false
+            },
+            "proxies": {
+                "type": "NoneType",
+                "value": null
+            }
+        }
+    },
+    "transformers.modeling_utils": {
+        "half": {
+            "self": {
+                "type": "T5ForConditionalGeneration",
+                "value": "[Serialized]"
+            }
+        },
+        "create_extended_attention_mask_for_decoder": {
+            "input_shape": {
+                "type": "MegaModel",
+                "value": "[Serialized]"
+            },
+            "attention_mask": {
+                "type": "Size",
+                "value": [
+                    2,
+                    3
+                ]
+            },
+            "device": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.image_utils": {
+        "to_numpy_array": {
+            "self": {
+                "type": "ImageFeatureExtractionMixin",
+                "value": "[Serialized]"
+            },
+            "image": {
+                "type": "Image",
+                "value": "[Serialized]"
+            },
+            "channel_first": {
+                "type": "bool",
+                "value": false
+            },
+            "rescale": {
+                "type": "bool",
+                "value": false
+            }
+        },
+        "to_pil_image": {
+            "self": {
+                "type": "ImageFeatureExtractionMixin",
+                "value": "[Serialized]"
+            },
+            "image": {
+                "type": "ndarray",
+                "value": "[Serialized]"
+            },
+            "rescale": {
+                "type": "bool",
+                "value": false
+            }
+        }
+    },
+    "argparse": {
+        "register": {
+            "self": {
+                "type": "HfArgumentParser",
+                "value": "[Serialized]"
+            },
+            "registry_name": {
+                "type": "str",
+                "value": "action"
+            },
+            "value": {
+                "type": "NoneType",
+                "value": null
+            },
+            "object": {
+                "type": "type",
+                "value": "[Serialized]"
+            }
+        },
+        "add_argument_group": {
+            "self": {
+                "type": "HfArgumentParser",
+                "value": "[Serialized]"
+            },
+            "args": {
+                "type": "str",
+                "value": "positional arguments"
+            }
+        },
+        "add_argument": {
+            "self": {
+                "type": "HfArgumentParser",
+                "value": "[Not Serializable]"
+            },
+            "args": {
+                "type": "str",
+                "value": "-h"
+            },
+            "kwargs": {
+                "type": "str",
+                "value": "--help"
+            },
+            "action": {
+                "type": "str",
+                "value": "help"
+            },
+            "default": {
+                "type": "str",
+                "value": "==SUPPRESS=="
+            },
+            "help": {
+                "type": "str",
+                "value": "show this help message and exit"
+            }
+        }
+    },
+    "transformers.pipelines.base": {
+        "get_inference_context": {
+            "self": {
+                "type": "FeatureExtractionPipeline",
+                "value": "[Serialized]"
+            }
+        },
+        "get_iterator": {
+            "self": {
+                "type": "FeatureExtractionPipeline",
+                "value": "[Serialized]"
+            },
+            "inputs": {
+                "type": "list",
+                "value": [
+                    "This is a test",
+                    "This",
+                    "This is",
+                    "This is a",
+                    "This is a test test test test"
+                ]
+            },
+            "num_workers": {
+                "type": "int",
+                "value": 0
+            },
+            "batch_size": {
+                "type": "int",
+                "value": 1
+            },
+            "preprocess_params": {
+                "type": "dict",
+                "value": {
+                    "truncation": true,
+                    "padding": true,
+                    "max_length": 4
+                }
+            },
+            "forward_params": {
+                "type": "dict",
+                "value": {}
+            },
+            "postprocess_params": {
+                "type": "dict",
+                "value": {}
+            }
+        }
+    },
+    "transformers.pipelines.table_question_answering": {
+        "sequential_inference": {
+            "self": {
+                "type": "TableQuestionAnsweringPipeline",
+                "value": "[Serialized]"
+            },
+            "input_ids": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "token_type_ids": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "attention_mask": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        },
+        "batch_inference": {
+            "self": {
+                "type": "TableQuestionAnsweringPipeline",
+                "value": "[Serialized]"
+            },
+            "input_ids": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "token_type_ids": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "attention_mask": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.pipelines.token_classification": {
+        "aggregate_overlapping_entities": {
+            "self": {
+                "type": "TokenClassificationPipeline",
+                "value": "[Serialized]"
+            },
+            "entities": {
+                "type": "list",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.pipelines.conversational": {
+        "mark_processed": {
+            "self": {
+                "type": "Conversation",
+                "value": "[Serialized]"
+            }
+        },
+        "append_response": {
+            "self": {
+                "type": "Conversation",
+                "value": "[Serialized]"
+            },
+            "response": {
+                "type": "str",
+                "value": "Hi"
+            }
+        }
+    },
+    "transformers.pipelines.fill_mask": {
+        "get_target_ids": {
+            "self": {
+                "type": "FillMaskPipeline",
+                "value": "[Serialized]"
+            },
+            "targets": {
+                "type": "list",
+                "value": [
+                    "!",
+                    "!!"
+                ]
+            },
+            "top_k": {
+                "type": "NoneType",
+                "value": null
+            }
+        }
+    },
+    "transformers.models.distilbert.modeling_distilbert": {
+        "get_position_embeddings": {
+            "self": {
+                "type": "DistilBertModel",
+                "value": "[Serialized]"
+            }
+        },
+        "resize_position_embeddings": {
+            "self": {
+                "type": "DistilBertModel",
+                "value": "[Serialized]"
+            },
+            "new_num_position_embeddings": {
+                "type": "int",
+                "value": 522
+            }
+        }
+    },
+    "transformers.models.flava.image_processing_flava": {
+        "map_pixels": {
+            "self": {
+                "type": "FlavaImageProcessor",
+                "value": "[Serialized]"
+            },
+            "image": {
+                "type": "ndarray",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.vilt.image_processing_vilt": {
+        "pad_and_create_pixel_mask": {
+            "self": {
+                "type": "ViltImageProcessor",
+                "value": "[Serialized]"
+            },
+            "pixel_values_list": {
+                "type": "list",
+                "value": "[Serialized]"
+            },
+            "return_tensors": {
+                "type": "str",
+                "value": "pt"
+            }
+        }
+    },
+    "transformers.models.prophetnet.modeling_prophetnet": {
+        "compute_buffered_relative_buckets": {
+            "self": {
+                "type": "ProphetNetDecoder",
+                "value": "[Serialized]"
+            },
+            "position_ids": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        },
+        "prepare_attention_mask": {
+            "self": {
+                "type": "ProphetNetDecoder",
+                "value": "[Serialized]"
+            },
+            "hidden_states": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "attention_mask": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        },
+        "prepare_predict_attention_mask": {
+            "self": {
+                "type": "ProphetNetDecoder",
+                "value": "[Serialized]"
+            },
+            "hidden_states": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "attention_mask": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.gpt_neo.configuration_gpt_neo": {
+        "expand_attention_types_params": {
+            "attention_types": {
+                "type": "GPTNeoConfig",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.bertweet.tokenization_bertweet": {
+        "add_from_file": {
+            "self": {
+                "type": "BertweetTokenizer",
+                "value": "[Serialized]"
+            },
+            "f": {
+                "type": "str",
+                "value": "/tmp/tmp2jobqx34/vocab.txt"
+            }
+        }
+    },
+    "transformers.models.swin2sr.modeling_swin2sr": {
+        "pad_and_normalize": {
+            "self": {
+                "type": "Swin2SRModel",
+                "value": "[Serialized]"
+            },
+            "pixel_values": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.big_bird.modeling_big_bird": {
+        "prepare_question_mask": {
+            "q_lengths": {
+                "type": "BigBirdForQuestionAnswering",
+                "value": "[Serialized]"
+            },
+            "maxlen": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.big_bird.modeling_flax_big_bird": {
+        "prepare_question_mask": {
+            "q_lengths": {
+                "type": "FlaxBigBirdForQuestionAnswering",
+                "value": "[Serialized]"
+            },
+            "maxlen": {
+                "type": "DeviceArray",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.phobert.tokenization_phobert": {
+        "add_from_file": {
+            "self": {
+                "type": "PhobertTokenizer",
+                "value": "[Serialized]"
+            },
+            "f": {
+                "type": "str",
+                "value": "/tmp/tmpvo2g7dt3/vocab.txt"
+            }
+        }
+    },
+    "transformers.models.blip_2.modeling_blip_2": {
+        "get_image_features": {
+            "self": {
+                "type": "Blip2Model",
+                "value": "[Serialized]"
+            },
+            "pixel_values": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        },
+        "get_qformer_features": {
+            "self": {
+                "type": "Blip2Model",
+                "value": "[Serialized]"
+            },
+            "pixel_values": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "torch.nn.modules.module": {
+        "zero_grad": {
+            "self": {
+                "type": "ReformerModelWithLMHead",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.reformer.modeling_reformer": {
+        "backward_pass": {
+            "self": {
+                "type": "ReformerLayer",
+                "value": "[Serialized]"
+            },
+            "next_attn_output": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "hidden_states": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "grad_attn_output": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "grad_hidden_states": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "head_mask": {
+                "type": "NoneType",
+                "value": null
+            },
+            "attention_mask": {
+                "type": "NoneType",
+                "value": null
+            },
+            "buckets": {
+                "type": "NoneType",
+                "value": null
+            }
+        }
+    },
+    "transformers.models.sam.modeling_sam": {
+        "get_image_wide_positional_embeddings": {
+            "self": {
+                "type": "SamModel",
+                "value": "[Serialized]"
+            }
+        },
+        "get_image_embeddings": {
+            "self": {
+                "type": "SamModel",
+                "value": "[Serialized]"
+            },
+            "pixel_values": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.sam.modeling_tf_sam": {
+        "get_image_wide_positional_embeddings": {
+            "self": {
+                "type": "TFSamModel",
+                "value": "[Serialized]"
+            }
+        },
+        "get_image_embeddings": {
+            "self": {
+                "type": "TFSamModel",
+                "value": "[Not Serializable]"
+            },
+            "pixel_values": {
+                "type": "EagerTensor",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.sam.processing_sam": {
+        "post_process_masks": {
+            "self": {
+                "type": "SamProcessor",
+                "value": "[Serialized]"
+            },
+            "args": {
+                "type": "list",
+                "value": "[Serialized]"
+            },
+            "kwargs": {
+                "type": "list",
+                "value": [
+                    [
+                        1764,
+                        2646
+                    ]
+                ]
+            },
+            "return_tensors": {
+                "type": "str",
+                "value": "tf"
+            }
+        }
+    },
+    "transformers.models.sam.image_processing_sam": {
+        "post_process_masks": {
+            "self": {
+                "type": "SamImageProcessor",
+                "value": "[Serialized]"
+            },
+            "masks": {
+                "type": "list",
+                "value": "[Serialized]"
+            },
+            "original_sizes": {
+                "type": "list",
+                "value": [
+                    [
+                        1764,
+                        2646
+                    ]
+                ]
+            },
+            "reshaped_input_sizes": {
+                "type": "list",
+                "value": [
+                    [
+                        683,
+                        1024
+                    ]
+                ]
+            },
+            "return_tensors": {
+                "type": "str",
+                "value": "tf"
+            }
+        }
+    },
+    "transformers.models.detr.image_processing_detr": {
+        "pad_and_create_pixel_mask": {
+            "self": {
+                "type": "DetrImageProcessor",
+                "value": "[Serialized]"
+            },
+            "pixel_values_list": {
+                "type": "list",
+                "value": "[Serialized]"
+            },
+            "return_tensors": {
+                "type": "str",
+                "value": "pt"
+            }
+        }
+    },
+    "transformers.models.ernie_m.tokenization_ernie_m": {
+        "load_vocab": {
+            "self": {
+                "type": "ErnieMTokenizer",
+                "value": "[Serialized]"
+            },
+            "filepath": {
+                "type": "str",
+                "value": "/tmp/tmpl0vd8kbs/vocab.txt"
+            }
+        },
+        "is_ch_char": {
+            "self": {
+                "type": "ErnieMTokenizer",
+                "value": "[Serialized]"
+            },
+            "char": {
+                "type": "str",
+                "value": "t"
+            }
+        },
+        "is_punct": {
+            "self": {
+                "type": "ErnieMTokenizer",
+                "value": "[Serialized]"
+            },
+            "char": {
+                "type": "str",
+                "value": "t"
+            }
+        }
+    },
+    "transformers.models.bridgetower.image_processing_bridgetower": {
+        "pad_and_create_pixel_mask": {
+            "self": {
+                "type": "BridgeTowerImageProcessor",
+                "value": "[Serialized]"
+            },
+            "pixel_values_list": {
+                "type": "list",
+                "value": "[Serialized]"
+            },
+            "return_tensors": {
+                "type": "str",
+                "value": "pt"
+            }
+        }
+    },
+    "transformers.models.bridgetower.modeling_bridgetower": {
+        "get_cls_features": {
+            "self": {
+                "type": "BridgeTowerModel",
+                "value": "[Serialized]"
+            },
+            "text_features": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "image_features": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.pix2struct.image_processing_pix2struct": {
+        "extract_flattened_patches": {
+            "self": {
+                "type": "Pix2StructImageProcessor",
+                "value": "[Serialized]"
+            },
+            "image": {
+                "type": "ndarray",
+                "value": "[Serialized]"
+            },
+            "max_patches": {
+                "type": "int",
+                "value": 512
+            },
+            "patch_size": {
+                "type": "dict",
+                "value": {
+                    "height": 16,
+                    "width": 16
+                }
+            }
+        }
+    },
+    "transformers.models.m2m_100.tokenization_m2m_100": {
+        "get_lang_token": {
+            "self": {
+                "type": "M2M100Tokenizer",
+                "value": "[Serialized]"
+            },
+            "lang": {
+                "type": "str",
+                "value": "af"
+            }
+        },
+        "get_lang_id": {
+            "self": {
+                "type": "M2M100Tokenizer",
+                "value": "[Serialized]"
+            },
+            "lang": {
+                "type": "str",
+                "value": "en"
+            }
+        }
+    },
+    "transformers.models.biogpt.tokenization_biogpt": {
+        "moses_detokenize": {
+            "self": {
+                "type": "BioGptTokenizer",
+                "value": "[Serialized]"
+            },
+            "tokens": {
+                "type": "list",
+                "value": [
+                    "l"
+                ]
+            },
+            "lang": {
+                "type": "str",
+                "value": "en"
+            }
+        },
+        "moses_tokenize": {
+            "self": {
+                "type": "BioGptTokenizer",
+                "value": "[Serialized]"
+            },
+            "text": {
+                "type": "str",
+                "value": "l"
+            },
+            "lang": {
+                "type": "str",
+                "value": "en"
+            }
+        }
+    },
+    "transformers.models.clip.modeling_flax_clip": {
+        "get_image_features": {
+            "self": {
+                "type": "FlaxCLIPModel",
+                "value": "[Serialized]"
+            },
+            "pixel_values": {
+                "type": "DynamicJaxprTracer",
+                "value": "[Not Serializable]"
+            }
+        }
+    },
+    "transformers.models.whisper.modeling_whisper": {
+        "freeze_encoder": {
+            "self": {
+                "type": "WhisperModel",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.whisper.processing_whisper": {
+        "get_prompt_ids": {
+            "self": {
+                "type": "WhisperProcessor",
+                "value": "[Serialized]"
+            },
+            "text": {
+                "type": "str",
+                "value": ""
+            }
+        },
+        "get_decoder_prompt_ids": {
+            "self": {
+                "type": "WhisperProcessor",
+                "value": "[Serialized]"
+            },
+            "task": {
+                "type": "str",
+                "value": "transcribe"
+            },
+            "no_timestamps": {
+                "type": "bool",
+                "value": true
+            }
+        }
+    },
+    "transformers.models.whisper.tokenization_whisper": {
+        "get_prompt_ids": {
+            "self": {
+                "type": "WhisperTokenizer",
+                "value": "[Serialized]"
+            },
+            "text": {
+                "type": "str",
+                "value": ""
+            },
+            "return_tensors": {
+                "type": "str",
+                "value": "np"
+            }
+        },
+        "get_decoder_prompt_ids": {
+            "self": {
+                "type": "WhisperTokenizer",
+                "value": "[Serialized]"
+            },
+            "task": {
+                "type": "str",
+                "value": "transcribe"
+            },
+            "language": {
+                "type": "NoneType",
+                "value": null
+            },
+            "no_timestamps": {
+                "type": "bool",
+                "value": true
+            }
+        },
+        "set_prefix_tokens": {
+            "self": {
+                "type": "WhisperTokenizer",
+                "value": "[Serialized]"
+            },
+            "task": {
+                "type": "str",
+                "value": "transcribe"
+            },
+            "language": {
+                "type": "NoneType",
+                "value": null
+            },
+            "predict_timestamps": {
+                "type": "bool",
+                "value": false
+            }
+        }
+    },
+    "transformers.models.ibert.quant_modules": {
+        "int_erf": {
+            "self": {
+                "type": "IntGELU",
+                "value": "[Serialized]"
+            },
+            "x_int": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "scaling_factor": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        },
+        "int_exp": {
+            "self": {
+                "type": "IntSoftmax",
+                "value": "[Serialized]"
+            },
+            "x_int": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "scaling_factor": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        },
+        "int_polynomial": {
+            "self": {
+                "type": "IntSoftmax",
+                "value": "[Serialized]"
+            },
+            "x_int": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "scaling_factor": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        },
+        "overflow_fallback": {
+            "self": {
+                "type": "IntLayerNorm",
+                "value": "[Serialized]"
+            },
+            "y_int": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        },
+        "set_shift": {
+            "self": {
+                "type": "IntLayerNorm",
+                "value": "[Serialized]"
+            },
+            "y_int": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.conditional_detr.image_processing_conditional_detr": {
+        "pad_and_create_pixel_mask": {
+            "self": {
+                "type": "ConditionalDetrImageProcessor",
+                "value": "[Serialized]"
+            },
+            "pixel_values_list": {
+                "type": "list",
+                "value": "[Serialized]"
+            },
+            "return_tensors": {
+                "type": "str",
+                "value": "pt"
+            }
+        }
+    },
+    "transformers.models.xlm.tokenization_xlm": {
+        "moses_pipeline": {
+            "self": {
+                "type": "XLMTokenizer",
+                "value": "[Serialized]"
+            },
+            "text": {
+                "type": "str",
+                "value": "l"
+            },
+            "lang": {
+                "type": "str",
+                "value": "en"
+            }
+        },
+        "moses_punct_norm": {
+            "self": {
+                "type": "XLMTokenizer",
+                "value": "[Serialized]"
+            },
+            "text": {
+                "type": "str",
+                "value": "l"
+            },
+            "lang": {
+                "type": "str",
+                "value": "en"
+            }
+        },
+        "moses_tokenize": {
+            "self": {
+                "type": "XLMTokenizer",
+                "value": "[Serialized]"
+            },
+            "text": {
+                "type": "str",
+                "value": "l"
+            },
+            "lang": {
+                "type": "str",
+                "value": "en"
+            }
+        }
+    },
+    "transformers.models.roc_bert.tokenization_roc_bert": {
+        "convert_tokens_to_shape_ids": {
+            "self": {
+                "type": "RoCBertTokenizer",
+                "value": "[Serialized]"
+            },
+            "tokens": {
+                "type": "list",
+                "value": [
+                    "a"
+                ]
+            }
+        },
+        "convert_tokens_to_pronunciation_ids": {
+            "self": {
+                "type": "RoCBertTokenizer",
+                "value": "[Serialized]"
+            },
+            "tokens": {
+                "type": "list",
+                "value": [
+                    "a"
+                ]
+            }
+        }
+    },
+    "transformers.models.layoutlmv3.modeling_layoutlmv3": {
+        "init_visual_bbox": {
+            "self": {
+                "type": "LayoutLMv3Model",
+                "value": "[Serialized]"
+            },
+            "image_size": {
+                "type": "tuple",
+                "value": [
+                    2,
+                    2
+                ]
+            }
+        },
+        "forward_image": {
+            "self": {
+                "type": "LayoutLMv3Model",
+                "value": "[Serialized]"
+            },
+            "pixel_values": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        },
+        "calculate_visual_bbox": {
+            "self": {
+                "type": "LayoutLMv3Model",
+                "value": "[Serialized]"
+            },
+            "device": {
+                "type": "device",
+                "value": "[Serialized]"
+            },
+            "dtype": {
+                "type": "dtype",
+                "value": "[Serialized]"
+            },
+            "batch_size": {
+                "type": "int",
+                "value": 2
+            }
+        }
+    },
+    "transformers.models.markuplm.tokenization_markuplm": {
+        "get_xpath_seq": {
+            "self": {
+                "type": "MarkupLMTokenizer",
+                "value": "[Serialized]"
+            },
+            "xpath": {
+                "type": "str",
+                "value": "/html/body/div/li[1]/div/span"
+            }
+        },
+        "build_xpath_tags_with_special_tokens": {
+            "self": {
+                "type": "MarkupLMTokenizer",
+                "value": "[Serialized]"
+            },
+            "xpath_tags_0": {
+                "type": "list",
+                "value": [
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ],
+                    [
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        4,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5,
+                        5
+                    ]
+                ]
+            },
+            "xpath_tags_1": {
+                "type": "list",
+                "value": []
+            }
+        },
+        "build_xpath_subs_with_special_tokens": {
+            "self": {
+                "type": "MarkupLMTokenizer",
+                "value": "[Serialized]"
+            },
+            "xpath_subs_0": {
+                "type": "list",
+                "value": [
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001,
+                        1001
+                    ]
+                ]
+            },
+            "xpath_subs_1": {
+                "type": "list",
+                "value": []
+            }
+        }
+    },
+    "transformers.models.markuplm.tokenization_markuplm_fast": {
+        "get_xpath_seq": {
+            "self": {
+                "type": "MarkupLMTokenizerFast",
+                "value": "[Serialized]"
+            },
+            "xpath": {
+                "type": "str",
+                "value": "/html/body/div/li[1]/div/span"
+            }
+        }
+    },
+    "transformers.models.markuplm.feature_extraction_markuplm": {
+        "get_three_from_single": {
+            "self": {
+                "type": "MarkupLMFeatureExtractor",
+                "value": "[Serialized]"
+            },
+            "html_string": {
+                "type": "str",
+                "value": "<HTML>\n\n    <HEAD>\n    <TITLE>sample document</TITLE>\n    </HEAD>\n\n    <BODY BGCOLOR=\"FFFFFF\">\n    <HR>\n    <a href=\"http://google.com\">Goog</a>\n    <H1>This is one header</H1>\n    <H2>This is a another Header</H2>\n    <P>Travel from\n        <P>\n        <B>SFO to JFK</B>\n        <BR>\n        <B><I>on May 2, 2015 at 2:00 pm. For details go to confirm.com </I></B>\n        <HR>\n        <div style=\"color:#0000FF\">\n            <h3>Traveler <b> name </b> is\n            <p> John Doe </p>\n        </div>"
+            }
+        },
+        "xpath_soup": {
+            "self": {
+                "type": "MarkupLMFeatureExtractor",
+                "value": "[Serialized]"
+            },
+            "element": {
+                "type": "NavigableString",
+                "value": "sample document"
+            }
+        },
+        "construct_xpath": {
+            "self": {
+                "type": "MarkupLMFeatureExtractor",
+                "value": "[Serialized]"
+            },
+            "xpath_tags": {
+                "type": "list",
+                "value": [
+                    "html",
+                    "head",
+                    "title"
+                ]
+            },
+            "xpath_subscripts": {
+                "type": "list",
+                "value": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        }
+    },
+    "transformers.models.bloom.modeling_bloom": {
+        "build_alibi_tensor": {
+            "self": {
+                "type": "BloomModel",
+                "value": "[Serialized]"
+            },
+            "attention_mask": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "num_heads": {
+                "type": "int",
+                "value": 8
+            },
+            "dtype": {
+                "type": "dtype",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.deta.modeling_deta": {
+        "get_valid_ratio": {
+            "self": {
+                "type": "DetaModel",
+                "value": "[Serialized]"
+            },
+            "mask": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.deta.image_processing_deta": {
+        "pad_and_create_pixel_mask": {
+            "self": {
+                "type": "DetaImageProcessor",
+                "value": "[Serialized]"
+            },
+            "pixel_values_list": {
+                "type": "list",
+                "value": "[Serialized]"
+            },
+            "return_tensors": {
+                "type": "str",
+                "value": "pt"
+            }
+        }
+    },
+    "transformers.models.mgp_str.processing_mgp_str": {
+        "char_decode": {
+            "self": {
+                "type": "MgpstrProcessor",
+                "value": "[Serialized]"
+            },
+            "sequences": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.tapex.tokenization_tapex": {
+        "prepare_table_query": {
+            "self": {
+                "type": "TapexTokenizer",
+                "value": "[Serialized]"
+            },
+            "table": {
+                "type": "DataFrame",
+                "value": "[Serialized]"
+            },
+            "query": {
+                "type": "str",
+                "value": "[SPECIAL_TOKEN]"
+            },
+            "answer": {
+                "type": "NoneType",
+                "value": null
+            },
+            "truncation_strategy": {
+                "type": "TruncationStrategy",
+                "value": "do_not_truncate"
+            },
+            "max_length": {
+                "type": "NoneType",
+                "value": null
+            }
+        },
+        "truncate_table_cells": {
+            "self": {
+                "type": "TapexTokenizer",
+                "value": "[Serialized]"
+            },
+            "table_content": {
+                "type": "dict",
+                "value": {
+                    "header": [
+                        "l"
+                    ],
+                    "rows": [
+                        [
+                            "o"
+                        ],
+                        [
+                            "w"
+                        ],
+                        [
+                            "e"
+                        ],
+                        [
+                            "r"
+                        ],
+                        [
+                            "s"
+                        ],
+                        [
+                            "t"
+                        ],
+                        [
+                            "i"
+                        ],
+                        [
+                            "d"
+                        ],
+                        [
+                            "n"
+                        ]
+                    ]
+                }
+            },
+            "question": {
+                "type": "str",
+                "value": "Testing the prepare_for_model method."
+            },
+            "answer": {
+                "type": "NoneType",
+                "value": null
+            }
+        },
+        "truncate_cell": {
+            "self": {
+                "type": "TapexTokenizer",
+                "value": "[Serialized]"
+            },
+            "cell_value": {
+                "type": "str",
+                "value": "o"
+            }
+        },
+        "source_call_func": {
+            "self": {
+                "type": "TapexTokenizer",
+                "value": "[Serialized]"
+            },
+            "table": {
+                "type": "DataFrame",
+                "value": "[Serialized]"
+            },
+            "query": {
+                "type": "str",
+                "value": "Testing batch encode plus"
+            },
+            "answer": {
+                "type": "NoneType",
+                "value": null
+            },
+            "add_special_tokens": {
+                "type": "bool",
+                "value": true
+            },
+            "padding": {
+                "type": "bool",
+                "value": false
+            },
+            "truncation": {
+                "type": "NoneType",
+                "value": null
+            },
+            "max_length": {
+                "type": "NoneType",
+                "value": null
+            },
+            "stride": {
+                "type": "int",
+                "value": 0
+            },
+            "pad_to_multiple_of": {
+                "type": "NoneType",
+                "value": null
+            },
+            "return_tensors": {
+                "type": "NoneType",
+                "value": null
+            },
+            "return_token_type_ids": {
+                "type": "NoneType",
+                "value": null
+            },
+            "return_attention_mask": {
+                "type": "NoneType",
+                "value": null
+            },
+            "return_overflowing_tokens": {
+                "type": "bool",
+                "value": false
+            },
+            "return_special_tokens_mask": {
+                "type": "bool",
+                "value": false
+            },
+            "return_offsets_mapping": {
+                "type": "bool",
+                "value": false
+            },
+            "return_length": {
+                "type": "bool",
+                "value": false
+            },
+            "verbose": {
+                "type": "bool",
+                "value": true
+            }
+        },
+        "target_call_func": {
+            "self": {
+                "type": "TapexTokenizer",
+                "value": "[Serialized]"
+            },
+            "answer": {
+                "type": "str",
+                "value": "tapex is a good model!"
+            },
+            "add_special_tokens": {
+                "type": "bool",
+                "value": true
+            },
+            "padding": {
+                "type": "bool",
+                "value": false
+            },
+            "truncation": {
+                "type": "NoneType",
+                "value": null
+            },
+            "max_length": {
+                "type": "NoneType",
+                "value": null
+            },
+            "stride": {
+                "type": "int",
+                "value": 0
+            },
+            "pad_to_multiple_of": {
+                "type": "NoneType",
+                "value": null
+            },
+            "return_tensors": {
+                "type": "NoneType",
+                "value": null
+            },
+            "return_token_type_ids": {
+                "type": "NoneType",
+                "value": null
+            },
+            "return_attention_mask": {
+                "type": "NoneType",
+                "value": null
+            },
+            "return_overflowing_tokens": {
+                "type": "bool",
+                "value": false
+            },
+            "return_special_tokens_mask": {
+                "type": "bool",
+                "value": false
+            },
+            "return_offsets_mapping": {
+                "type": "bool",
+                "value": false
+            },
+            "return_length": {
+                "type": "bool",
+                "value": false
+            },
+            "verbose": {
+                "type": "bool",
+                "value": true
+            }
+        },
+        "target_encode_plus": {
+            "self": {
+                "type": "TapexTokenizer",
+                "value": "[Serialized]"
+            },
+            "answer": {
+                "type": "str",
+                "value": "tapex is a good model!"
+            },
+            "add_special_tokens": {
+                "type": "bool",
+                "value": true
+            },
+            "padding": {
+                "type": "bool",
+                "value": false
+            },
+            "truncation": {
+                "type": "NoneType",
+                "value": null
+            },
+            "max_length": {
+                "type": "NoneType",
+                "value": null
+            },
+            "pad_to_multiple_of": {
+                "type": "NoneType",
+                "value": null
+            },
+            "return_tensors": {
+                "type": "NoneType",
+                "value": null
+            },
+            "return_token_type_ids": {
+                "type": "NoneType",
+                "value": null
+            },
+            "return_attention_mask": {
+                "type": "NoneType",
+                "value": null
+            },
+            "return_overflowing_tokens": {
+                "type": "bool",
+                "value": false
+            },
+            "return_special_tokens_mask": {
+                "type": "bool",
+                "value": false
+            },
+            "return_offsets_mapping": {
+                "type": "bool",
+                "value": false
+            },
+            "return_length": {
+                "type": "bool",
+                "value": false
+            },
+            "verbose": {
+                "type": "bool",
+                "value": true
+            }
+        }
+    },
+    "transformers.models.transfo_xl.tokenization_transfo_xl": {
+        "build_vocab": {
+            "self": {
+                "type": "TransfoXLTokenizer",
+                "value": "[Serialized]"
+            }
+        },
+        "add_symbol": {
+            "self": {
+                "type": "TransfoXLTokenizer",
+                "value": "[Serialized]"
+            },
+            "sym": {
+                "type": "str",
+                "value": "<unk>"
+            }
+        },
+        "moses_pipeline": {
+            "self": {
+                "type": "TransfoXLTokenizer",
+                "value": "[Serialized]"
+            },
+            "text": {
+                "type": "str",
+                "value": "want"
+            }
+        },
+        "moses_punct_norm": {
+            "self": {
+                "type": "TransfoXLTokenizer",
+                "value": "[Serialized]"
+            },
+            "text": {
+                "type": "str",
+                "value": "want"
+            }
+        },
+        "moses_tokenize": {
+            "self": {
+                "type": "TransfoXLTokenizer",
+                "value": "[Serialized]"
+            },
+            "text": {
+                "type": "str",
+                "value": "want"
+            }
+        },
+        "move_added_token": {
+            "self": {
+                "type": "TransfoXLTokenizer",
+                "value": "[Serialized]"
+            },
+            "token": {
+                "type": "str",
+                "value": "new1"
+            },
+            "target_idx": {
+                "type": "int",
+                "value": 1
+            }
+        }
+    },
+    "transformers.models.transfo_xl.modeling_transfo_xl": {
+        "init_mems": {
+            "self": {
+                "type": "TransfoXLModel",
+                "value": "[Serialized]"
+            },
+            "bsz": {
+                "type": "int",
+                "value": 14
+            }
+        }
+    },
+    "transformers.models.pegasus.modeling_pegasus": {
+        "get_position_embeddings": {
+            "self": {
+                "type": "PegasusModel",
+                "value": "[Serialized]"
+            }
+        },
+        "resize_position_embeddings": {
+            "self": {
+                "type": "PegasusModel",
+                "value": "[Serialized]"
+            },
+            "new_num_position_embeddings": {
+                "type": "int",
+                "value": 30
+            }
+        }
+    },
+    "transformers.models.nllb_moe.modeling_nllb_moe": {
+        "route_tokens": {
+            "self": {
+                "type": "NllbMoeTop2Router",
+                "value": "[Serialized]"
+            },
+            "router_logits": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "input_dtype": {
+                "type": "dtype",
+                "value": "[Serialized]"
+            },
+            "padding_mask": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        },
+        "normalize_router_probabilities": {
+            "self": {
+                "type": "NllbMoeTop2Router",
+                "value": "[Serialized]"
+            },
+            "router_probs": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "top_1_mask": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            },
+            "top_2_mask": {
+                "type": "Tensor",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.auto.configuration_auto": {
+        "register": {
+            "model_type": {
+                "type": "str",
+                "value": "custom"
+            },
+            "config": {
+                "type": "type",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.auto.feature_extraction_auto": {
+        "register": {
+            "config_class": {
+                "type": "type",
+                "value": "[Serialized]"
+            },
+            "feature_extractor_class": {
+                "type": "type",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.auto.tokenization_auto": {
+        "register": {
+            "config_class": {
+                "type": "type",
+                "value": "[Serialized]"
+            },
+            "slow_tokenizer_class": {
+                "type": "type",
+                "value": "[Serialized]"
+            },
+            "fast_tokenizer_class": {
+                "type": "type",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.auto.processing_auto": {
+        "register": {
+            "config_class": {
+                "type": "type",
+                "value": "[Serialized]"
+            },
+            "processor_class": {
+                "type": "type",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "transformers.models.auto.image_processing_auto": {
+        "register": {
+            "config_class": {
+                "type": "type",
+                "value": "[Serialized]"
+            },
+            "image_processor_class": {
+                "type": "type",
+                "value": "[Serialized]"
+            }
+        }
+    },
+    "keras.engine.training": {
+        "save_spec": {
+            "self": {
+                "type": "TFRobertaForMaskedLM",
+                "value": "[Serialized]"
+            }
+        }
+    }
+}

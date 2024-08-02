@@ -1,0 +1,10 @@
+[run]
+source=
+	/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages
+	/home/soslab/.local/lib/python3.8/site-packages
+branch=False
+omit=
+	py2_raise.py
+	/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/benchmarks/benchmark_util.py
+[report]
+ignore_errors=True

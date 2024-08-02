@@ -1,0 +1,1486 @@
+{
+	"/usr/lib/python3.8/_collections_abc.py": {
+		"Mapping.get": {
+			"self": "NOT_PRIMITIVE",
+			"key": "PYTEST_VERSION",
+			"default": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pluggy/_tracing.py": {
+		"TagTracerSub.get": {
+			"self": "NOT_PRIMITIVE",
+			"name": "pluginmanage"
+		}
+	},
+	"/usr/lib/python3.8/functools.py": {
+		"lru_cache": {
+			"maxsize": 256,
+			"typed": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/config/__init__.py": {
+		"PytestPluginManager.parse_hookspec_opts": {
+			"self": "NOT_PRIMITIVE",
+			"module_or_class": "NOT_PRIMITIVE",
+			"name": "Any"
+		},
+		"PytestPluginManager.parse_hookimpl_opts": {
+			"self": "NOT_PRIMITIVE",
+			"plugin": "NOT_PRIMITIVE",
+			"name": "__class__"
+		},
+		"PytestPluginManager.consider_preparse": {
+			"self": "NOT_PRIMITIVE",
+			"args": "NOT_PRIMITIVE",
+			"exclude_only": true
+		},
+		"PytestPluginManager.import_plugin": {
+			"self": "NOT_PRIMITIVE",
+			"modname": "mark",
+			"consider_entry_points": false
+		},
+		"Config.parse": {
+			"self": "NOT_PRIMITIVE",
+			"args": "NOT_PRIMITIVE",
+			"addopts": true
+		},
+		"Config.getini": {
+			"self": "NOT_PRIMITIVE",
+			"name": "addopts"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/pluggy/_manager.py": {
+		"PluginManager.parse_hookspec_opts": {
+			"self": "NOT_PRIMITIVE",
+			"module_or_class": "NOT_PRIMITIVE",
+			"name": "Any"
+		},
+		"PluginManager.parse_hookimpl_opts": {
+			"self": "NOT_PRIMITIVE",
+			"plugin": "NOT_PRIMITIVE",
+			"name": "pytest_configure"
+		},
+		"PluginManager.is_blocked": {
+			"self": "NOT_PRIMITIVE",
+			"name": "mark"
+		},
+		"PluginManager.get_plugin": {
+			"self": "NOT_PRIMITIVE",
+			"name": "mark"
+		}
+	},
+	"/usr/lib/python3.8/inspect.py": {
+		"Signature.from_callable": {
+			"obj": "NOT_PRIMITIVE",
+			"follow_wrapped": true
+		},
+		"BlockFinder.tokeneater": {
+			"self": "NOT_PRIMITIVE",
+			"type": 5,
+			"token": "            ",
+			"srowcol": "NOT_PRIMITIVE",
+			"erowcol": "NOT_PRIMITIVE",
+			"line": "            def predict_function(iterator):\n"
+		}
+	},
+	"/usr/lib/python3.8/pathlib.py": {
+		"_PosixFlavour.splitroot": {
+			"self": "NOT_PRIMITIVE",
+			"part": "/home/soslab/pyct-coverage/coverage_ray/transformers",
+			"sep": "/"
+		},
+		"_Flavour.join_parsed_parts": {
+			"self": "NOT_PRIMITIVE",
+			"drv": "",
+			"root": "/",
+			"parts": "NOT_PRIMITIVE",
+			"drv2": "",
+			"root2": "",
+			"parts2": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/deprecated.py": {
+		"check_ispytest": {
+			"ispytest": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/assertion/__init__.py": {
+		"DummyRewriteHook.mark_rewrite": {
+			"self": "NOT_PRIMITIVE",
+			"*args": [
+				"_pytest.mark"
+			]
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/config/argparsing.py": {
+		"Parser.getgroup": {
+			"self": "NOT_PRIMITIVE",
+			"name": "general",
+			"description": "",
+			"after": "NOT_PRIMITIVE"
+		},
+		"OptionGroup.addoption": {
+			"self": "NOT_PRIMITIVE",
+			"*args": [
+				"--markers"
+			],
+			"action": "store_true",
+			"help": "show markers (builtin, plugin and per-project ones)."
+		},
+		"Parser.addini": {
+			"self": "NOT_PRIMITIVE",
+			"name": "markers",
+			"help": "Register new markers for test functions",
+			"type": "linelist",
+			"default": "NOT_PRIMITIVE"
+		},
+		"get_ini_default_for_type": {
+			"type": "linelist"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_virtualenv.py": {
+		"_Finder.find_spec": {
+			"self": "NOT_PRIMITIVE",
+			"fullname": "_pytest.helpconfig",
+			"path": "NOT_PRIMITIVE",
+			"target": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/pyct-coverage/coverage_ray/transformers/<frozen importlib._bootstrap>": {
+		"FrozenImporter.find_spec": {
+			"fullname": "_pytest.helpconfig",
+			"path": "NOT_PRIMITIVE",
+			"target": "NOT_PRIMITIVE"
+		},
+		"spec_from_loader": {
+			"name": "_elementtree",
+			"loader": "NOT_PRIMITIVE",
+			"origin": "built-in",
+			"is_package": "NOT_PRIMITIVE"
+		},
+		"FrozenImporter.is_package": {
+			"fullname": "_elementtree"
+		}
+	},
+	"/home/soslab/pyct-coverage/coverage_ray/transformers/<frozen importlib._bootstrap_external>": {
+		"spec_from_file_location": {
+			"name": "_pytest.helpconfig",
+			"location": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/helpconfig.py",
+			"loader": "NOT_PRIMITIVE",
+			"submodule_search_locations": "NOT_PRIMITIVE"
+		},
+		"cache_from_source": {
+			"path": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/helpconfig.py",
+			"debug_override": "NOT_PRIMITIVE",
+			"optimization": "NOT_PRIMITIVE"
+		},
+		"_NamespaceLoader.get_code": {
+			"self": "NOT_PRIMITIVE",
+			"fullname": "_pytest.helpconfig"
+		},
+		"SourceFileLoader.path_stats": {
+			"self": "NOT_PRIMITIVE",
+			"path": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/helpconfig.py"
+		},
+		"FileLoader.get_data": {
+			"self": "NOT_PRIMITIVE",
+			"path": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/__pycache__/helpconfig.cpython-38.pyc"
+		},
+		"_NamespaceLoader.is_package": {
+			"self": "NOT_PRIMITIVE",
+			"fullname": "__autograph_generated_fileh2m586c3"
+		},
+		"SourceLoader.source_to_code": {
+			"self": "NOT_PRIMITIVE",
+			"data": "NOT_PRIMITIVE",
+			"path": "/tmp/__autograph_generated_fileh2m586c3.py",
+			"_optimize": -1
+		}
+	},
+	"/usr/lib/python3.8/dataclasses.py": {
+		"dataclass": {
+			"init": true,
+			"repr": true,
+			"eq": true,
+			"order": false,
+			"unsafe_hash": false,
+			"frozen": true
+		},
+		"field": {
+			"default": "unconditional skip",
+			"default_factory": "NOT_PRIMITIVE",
+			"init": true,
+			"repr": true,
+			"hash": "NOT_PRIMITIVE",
+			"compare": true,
+			"metadata": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/fixtures.py": {
+		"fixture": {
+			"fixture_function": "NOT_PRIMITIVE",
+			"scope": "function",
+			"params": "NOT_PRIMITIVE",
+			"autouse": false,
+			"ids": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/logging.py": {
+		"pytest_addoption.<locals>.add_option_ini": {
+			"option": "--log-level",
+			"dest": "log_level",
+			"default": "NOT_PRIMITIVE",
+			"type": "NOT_PRIMITIVE",
+			"metavar": "LEVEL",
+			"help": "Level of messages to catch/display. Not set by default, so it depends on the root/parent log handler's effective level, where it is \"WARNING\" by default."
+		}
+	},
+	"/usr/lib/python3.8/gettext.py": {
+		"dgettext": {
+			"domain": "messages",
+			"message": "positional arguments"
+		},
+		"translation": {
+			"domain": "messages",
+			"localedir": "NOT_PRIMITIVE",
+			"languages": "NOT_PRIMITIVE",
+			"class_": "NOT_PRIMITIVE",
+			"fallback": false,
+			"codeset": "NOT_PRIMITIVE"
+		},
+		"find": {
+			"domain": "messages",
+			"localedir": "NOT_PRIMITIVE",
+			"languages": "NOT_PRIMITIVE",
+			"all": true
+		}
+	},
+	"/usr/lib/python3.8/locale.py": {
+		"normalize": {
+			"localename": "zh_TW"
+		}
+	},
+	"/usr/lib/python3.8/genericpath.py": {
+		"exists": {
+			"path": "/usr/share/locale/zh_TW.big5/LC_MESSAGES/messages.mo"
+		}
+	},
+	"/usr/lib/python3.8/argparse.py": {
+		"_ActionsContainer.add_argument_group": {
+			"self": "NOT_PRIMITIVE",
+			"*args": [
+				"positional arguments"
+			]
+		},
+		"_ActionsContainer.add_argument": {
+			"self": "NOT_PRIMITIVE",
+			"*args": [
+				"-k"
+			],
+			"action": "store",
+			"dest": "keyword",
+			"default": "",
+			"metavar": "EXPRESSION",
+			"help": "Only run tests which match the given substring expression. An expression is a Python evaluable expression where all names are substring-matched against test names and their parent classes. Example: -k 'test_method or test_other' matches all test functions and classes whose name contains 'test_method' or 'test_other', while -k 'not test_method' matches those that don't contain 'test_method' in their names. -k 'not test_method and not test_other' will eliminate the matches. Additionally keywords are matched to classes and functions containing extra names in their 'extra_keyword_matches' set, as well as functions which have names assigned directly to them. The matching is case-insensitive."
+		},
+		"ArgumentParser._parse_known_args.<locals>.consume_positionals": {
+			"start_index": 0
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/config/findpaths.py": {
+		"get_dirs_from_args.<locals>.is_option": {
+			"x": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/"
+		},
+		"get_dirs_from_args.<locals>.get_file_part_from_node_id": {
+			"x": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/_pytest/pathlib.py": {
+		"absolutepath": {
+			"path": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpydoc/"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/engine/training.py": {
+		"Model.predict": {
+			"self": "NOT_PRIMITIVE",
+			"x": "NOT_PRIMITIVE",
+			"batch_size": "NOT_PRIMITIVE",
+			"verbose": "auto",
+			"steps": "NOT_PRIMITIVE",
+			"callbacks": "NOT_PRIMITIVE",
+			"max_queue_size": 10,
+			"workers": 1,
+			"use_multiprocessing": false
+		},
+		"Model.make_predict_function": {
+			"self": "NOT_PRIMITIVE",
+			"force": false
+		},
+		"reduce_per_replica": {
+			"values": "NOT_PRIMITIVE",
+			"strategy": "NOT_PRIMITIVE",
+			"reduction": "concat"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/eager/monitoring.py": {
+		"Sampler.get_cell": {
+			"self": "NOT_PRIMITIVE",
+			"*args": [
+				"predict"
+			]
+		},
+		"BoolGaugeCell.set": {
+			"self": "NOT_PRIMITIVE",
+			"value": true
+		},
+		"CounterCell.increase_by": {
+			"self": "NOT_PRIMITIVE",
+			"value": 1704160
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/utils/version_utils.py": {
+		"disallow_legacy_graph": {
+			"cls_name": "Model",
+			"method_name": "predict"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/engine/data_adapter.py": {
+		"get_data_handler": {
+			"x": "NOT_PRIMITIVE",
+			"batch_size": "NOT_PRIMITIVE",
+			"steps_per_epoch": "NOT_PRIMITIVE",
+			"initial_epoch": 0,
+			"epochs": 1,
+			"max_queue_size": 10,
+			"workers": 1,
+			"use_multiprocessing": false,
+			"model": "NOT_PRIMITIVE",
+			"steps_per_execution": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/util/nest.py": {
+		"flatten": {
+			"structure": "NOT_PRIMITIVE",
+			"expand_composites": false
+		},
+		"flatten_with_tuple_paths": {
+			"structure": "NOT_PRIMITIVE",
+			"expand_composites": false
+		},
+		"yield_flat_paths": {
+			"nest": "NOT_PRIMITIVE",
+			"expand_composites": false
+		},
+		"pack_sequence_as": {
+			"structure": "NOT_PRIMITIVE",
+			"flat_sequence": "NOT_PRIMITIVE",
+			"expand_composites": false
+		},
+		"assert_same_structure": {
+			"nest1": "NOT_PRIMITIVE",
+			"nest2": "NOT_PRIMITIVE",
+			"check_types": true,
+			"expand_composites": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/util/nest_util.py": {
+		"flatten": {
+			"modality": "NOT_PRIMITIVE",
+			"structure": "NOT_PRIMITIVE",
+			"expand_composites": false
+		},
+		"is_namedtuple": {
+			"instance": "NOT_PRIMITIVE",
+			"strict": false
+		},
+		"pack_sequence_as": {
+			"modality": "NOT_PRIMITIVE",
+			"structure": "NOT_PRIMITIVE",
+			"flat_sequence": "NOT_PRIMITIVE",
+			"expand_composites": false,
+			"sequence_fn": "NOT_PRIMITIVE"
+		},
+		"assert_same_structure": {
+			"modality": "NOT_PRIMITIVE",
+			"nest1": "NOT_PRIMITIVE",
+			"nest2": "NOT_PRIMITIVE",
+			"check_types": true,
+			"expand_composites": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/tensor_conversion.py": {
+		"convert_to_tensor_v2_with_dispatch": {
+			"value": "NOT_PRIMITIVE",
+			"dtype": "float32",
+			"dtype_hint": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE"
+		},
+		"convert_to_tensor_v2": {
+			"value": "NOT_PRIMITIVE",
+			"dtype": "float32",
+			"dtype_hint": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/tensor_conversion_registry.py": {
+		"convert": {
+			"value": "NOT_PRIMITIVE",
+			"dtype": "float32",
+			"name": "NOT_PRIMITIVE",
+			"as_ref": false,
+			"preferred_dtype": "NOT_PRIMITIVE",
+			"accepted_result_types": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/dtypes.py": {
+		"as_dtype": {
+			"type_value": "float32"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/engine/training_utils.py": {
+		"handle_partial_sample_weights": {
+			"outputs": "NOT_PRIMITIVE",
+			"sample_weights": "NOT_PRIMITIVE",
+			"sample_weight_modes": "NOT_PRIMITIVE",
+			"check_all_flat": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/data/ops/dataset_ops.py": {
+		"DatasetV2.range": {
+			"*args": [
+				1
+			]
+		},
+		"DatasetV2.repeat": {
+			"self": "NOT_PRIMITIVE",
+			"count": 1,
+			"name": "NOT_PRIMITIVE"
+		},
+		"DatasetV2.prefetch": {
+			"self": "NOT_PRIMITIVE",
+			"buffer_size": 1,
+			"name": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/ops.py": {
+		"convert_to_tensor": {
+			"value": 0,
+			"dtype": "NOT_PRIMITIVE",
+			"name": "start",
+			"as_ref": false,
+			"preferred_dtype": "NOT_PRIMITIVE",
+			"dtype_hint": "NOT_PRIMITIVE",
+			"ctx": "NOT_PRIMITIVE",
+			"accepted_result_types": "NOT_PRIMITIVE"
+		},
+		"Graph.get_collection_ref": {
+			"self": "NOT_PRIMITIVE",
+			"name": "variables"
+		},
+		"Graph.unique_name": {
+			"self": "NOT_PRIMITIVE",
+			"name": "args_0",
+			"mark_as_used": true
+		},
+		"Graph.op_def_for_type": {
+			"self": "NOT_PRIMITIVE",
+			"type": "Placeholder"
+		},
+		"GraphTensor": {
+			"op": "NOT_PRIMITIVE",
+			"value_index": 0,
+			"dtype": "NOT_PRIMITIVE"
+		},
+		"Operation.get_attr": {
+			"self": "NOT_PRIMITIVE",
+			"name": "_user_specified_name"
+		},
+		"name_from_scope_name": {
+			"name": "range/"
+		},
+		"internal_convert_to_tensor_or_composite": {
+			"value": "NOT_PRIMITIVE",
+			"dtype": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE",
+			"as_ref": false
+		},
+		"internal_convert_n_to_tensor": {
+			"values": "NOT_PRIMITIVE",
+			"dtype": "NOT_PRIMITIVE",
+			"name": "components",
+			"as_ref": false,
+			"preferred_dtype": "NOT_PRIMITIVE",
+			"ctx": "NOT_PRIMITIVE"
+		},
+		"Graph.as_graph_element": {
+			"self": "NOT_PRIMITIVE",
+			"obj": "NOT_PRIMITIVE",
+			"allow_tensor": true,
+			"allow_operation": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/ops/gen_dataset_ops.py": {
+		"range_dataset": {
+			"start": "NOT_PRIMITIVE",
+			"stop": "NOT_PRIMITIVE",
+			"step": "NOT_PRIMITIVE",
+			"output_types": "NOT_PRIMITIVE",
+			"output_shapes": "NOT_PRIMITIVE",
+			"metadata": "NOT_PRIMITIVE",
+			"replicate_on_split": false,
+			"name": "NOT_PRIMITIVE"
+		},
+		"map_dataset": {
+			"input_dataset": "NOT_PRIMITIVE",
+			"other_arguments": "NOT_PRIMITIVE",
+			"f": "NOT_PRIMITIVE",
+			"output_types": "NOT_PRIMITIVE",
+			"output_shapes": "NOT_PRIMITIVE",
+			"use_inter_op_parallelism": true,
+			"preserve_cardinality": true,
+			"metadata": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE"
+		},
+		"prefetch_dataset": {
+			"input_dataset": "NOT_PRIMITIVE",
+			"buffer_size": "NOT_PRIMITIVE",
+			"output_types": "NOT_PRIMITIVE",
+			"output_shapes": "NOT_PRIMITIVE",
+			"slack_period": "NOT_PRIMITIVE",
+			"legacy_autotune": true,
+			"buffer_size_min": 0,
+			"metadata": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE"
+		},
+		"tensor_slice_dataset": {
+			"components": "NOT_PRIMITIVE",
+			"output_shapes": "NOT_PRIMITIVE",
+			"is_files": false,
+			"metadata": "NOT_PRIMITIVE",
+			"replicate_on_split": false,
+			"name": "NOT_PRIMITIVE"
+		},
+		"parallel_map_dataset_v2": {
+			"input_dataset": "NOT_PRIMITIVE",
+			"other_arguments": "NOT_PRIMITIVE",
+			"num_parallel_calls": "NOT_PRIMITIVE",
+			"f": "NOT_PRIMITIVE",
+			"output_types": "NOT_PRIMITIVE",
+			"output_shapes": "NOT_PRIMITIVE",
+			"use_inter_op_parallelism": true,
+			"deterministic": "default",
+			"preserve_cardinality": true,
+			"metadata": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE"
+		}
+	},
+	"/usr/lib/python3.8/importlib/__init__.py": {
+		"import_module": {
+			"name": "tensorflow.python.autograph.core.ag_ctx",
+			"package": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/function_spec.py": {
+		"FunctionSpec.from_function_and_signature": {
+			"python_function": "NOT_PRIMITIVE",
+			"input_signature": "NOT_PRIMITIVE",
+			"is_pure": false,
+			"jit_compile": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/core/function/polymorphism/function_type.py": {
+		"FunctionType.from_callable": {
+			"obj": "NOT_PRIMITIVE",
+			"follow_wrapped": true
+		},
+		"FunctionType.get_default_values": {
+			"obj": "NOT_PRIMITIVE",
+			"follow_wrapped": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/util/tf_decorator.py": {
+		"make_decorator": {
+			"target": "NOT_PRIMITIVE",
+			"decorator_func": "NOT_PRIMITIVE",
+			"decorator_name": "NOT_PRIMITIVE",
+			"decorator_doc": "",
+			"decorator_argspec": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/platform/tf_logging.py": {
+		"vlog": {
+			"level": 1,
+			"msg": "Creating new FuncGraph for Python function %r (key: %r, %r)",
+			"*args": [
+				"NOT_PRIMITIVE",
+				"NOT_PRIMITIVE",
+				"NOT_PRIMITIVE"
+			]
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/eager/context.py": {
+		"_ContextSwitchStack.push": {
+			"self": "NOT_PRIMITIVE",
+			"is_building_function": true,
+			"enter_context_fn": "NOT_PRIMITIVE",
+			"device_stack": "NOT_PRIMITIVE"
+		},
+		"Context.call_function": {
+			"self": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE",
+			"tensor_inputs": "NOT_PRIMITIVE",
+			"num_outputs": 1
+		},
+		"Context.config.<locals>.rewriter_toggle": {
+			"option": "layout_optimizer"
+		},
+		"Context.config.<locals>.rewriter_bool": {
+			"option": "disable_model_pruning"
+		},
+		"Context.list_physical_devices": {
+			"self": "NOT_PRIMITIVE",
+			"device_type": "GPU"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/core/function/trace_type/trace_type_builder.py": {
+		"InternalPlaceholderContext.update_naming_scope": {
+			"self": "NOT_PRIMITIVE",
+			"naming_scope": "args_0"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/util/compat.py": {
+		"as_bytes": {
+			"bytes_or_text": "Placeholder",
+			"encoding": "utf-8"
+		},
+		"as_str": {
+			"bytes_or_text": "Placeholder",
+			"encoding": "utf-8"
+		},
+		"as_text": {
+			"bytes_or_text": "Placeholder",
+			"encoding": "utf-8"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/util/lock_util.py": {
+		"GroupLock.group": {
+			"self": "NOT_PRIMITIVE",
+			"group_id": 0
+		},
+		"GroupLock.acquire": {
+			"self": "NOT_PRIMITIVE",
+			"group_id": 0
+		},
+		"GroupLock.release": {
+			"self": "NOT_PRIMITIVE",
+			"group_id": 0
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/util/tf_stack.py": {
+		"extract_stack_for_op": {
+			"c_op": "NOT_PRIMITIVE",
+			"stacklevel": 3
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/func_graph.py": {
+		"func_graph_from_py_func": {
+			"name": "Dataset_map_permutation",
+			"python_func": "NOT_PRIMITIVE",
+			"args": "NOT_PRIMITIVE",
+			"kwargs": "NOT_PRIMITIVE",
+			"signature": "NOT_PRIMITIVE",
+			"func_graph": "NOT_PRIMITIVE",
+			"add_control_dependencies": true,
+			"arg_names": "NOT_PRIMITIVE",
+			"op_return_value": "NOT_PRIMITIVE",
+			"collections": "NOT_PRIMITIVE",
+			"capture_by_value": "NOT_PRIMITIVE",
+			"create_placeholders": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/ops/variable_scope.py": {
+		"VariableScope.set_use_resource": {
+			"self": "NOT_PRIMITIVE",
+			"use_resource": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/tensor.py": {
+		"sanitize_spec_name": {
+			"name": "args_0"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/impl/api.py": {
+		"tf_convert": {
+			"f": "NOT_PRIMITIVE",
+			"ctx": "NOT_PRIMITIVE",
+			"convert_by_default": true,
+			"user_requested": false
+		},
+		"convert": {
+			"recursive": true,
+			"optional_features": "NOT_PRIMITIVE",
+			"user_requested": false,
+			"conversion_ctx": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/utils/ag_logging.py": {
+		"log": {
+			"level": 1,
+			"msg": "Converted call: %s\n    args: %s\n    kwargs: %s\n",
+			"*args": [
+				"NOT_PRIMITIVE",
+				"NOT_PRIMITIVE",
+				"NOT_PRIMITIVE"
+			]
+		},
+		"has_verbosity": {
+			"level": 1
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/impl/conversion.py": {
+		"is_allowlisted": {
+			"o": "NOT_PRIMITIVE",
+			"check_call_override": true,
+			"allow_namedtuple_subclass": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/core/config_lib.py": {
+		"Rule.matches": {
+			"self": "NOT_PRIMITIVE",
+			"module_name": "keras.src.engine.data_adapter"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/ops/math_ops.py": {
+		"range": {
+			"start": 10000,
+			"limit": "NOT_PRIMITIVE",
+			"delta": 1,
+			"dtype": "NOT_PRIMITIVE",
+			"name": "range"
+		},
+		"matmul": {
+			"a": "NOT_PRIMITIVE",
+			"b": "NOT_PRIMITIVE",
+			"transpose_a": false,
+			"transpose_b": false,
+			"adjoint_a": false,
+			"adjoint_b": false,
+			"a_is_sparse": false,
+			"b_is_sparse": false,
+			"output_type": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE"
+		},
+		"maybe_promote_tensors": {
+			"*args": [
+				"NOT_PRIMITIVE",
+				"NOT_PRIMITIVE"
+			],
+			"force_same_dtype": false
+		},
+		"reduce_all": {
+			"input_tensor": "NOT_PRIMITIVE",
+			"axis": 0,
+			"keepdims": false,
+			"name": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/tensor_util.py": {
+		"make_tensor_proto": {
+			"values": 0,
+			"dtype": "NOT_PRIMITIVE",
+			"shape": "NOT_PRIMITIVE",
+			"verify_shape": false,
+			"allow_broadcast": true
+		},
+		"constant_value": {
+			"tensor": 0,
+			"partial": false
+		},
+		"is_tf_type": {
+			"x": 0
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/op_def_registry.py": {
+		"get": {
+			"name": "Range"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/op_def_library.py": {
+		"value_to_attr_value": {
+			"value": "NOT_PRIMITIVE",
+			"attr_type": "type",
+			"arg_name": "Tidx"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/data/util/structure.py": {
+		"type_spec_from_value": {
+			"element": "NOT_PRIMITIVE",
+			"use_fallback": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/data/util/nest.py": {
+		"assert_same_structure": {
+			"nest1": "NOT_PRIMITIVE",
+			"nest2": "NOT_PRIMITIVE",
+			"check_types": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/tensor_shape.py": {
+		"as_dimension": {
+			"value": 10000
+		},
+		"dimension_value": {
+			"dimension": 312
+		},
+		"TensorShape.with_rank": {
+			"self": "NOT_PRIMITIVE",
+			"rank": 1
+		},
+		"unknown_shape": {
+			"rank": 1
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/registry.py": {
+		"Registry.lookup": {
+			"self": "NOT_PRIMITIVE",
+			"name": "_identity_resolver"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/atomic_function.py": {
+		"from_func_graph": {
+			"name": "__inference_Dataset_map_permutation_321",
+			"graph": "NOT_PRIMITIVE",
+			"inputs": "NOT_PRIMITIVE",
+			"outputs": "NOT_PRIMITIVE",
+			"attrs": "NOT_PRIMITIVE"
+		},
+		"from_func_graph_no_transforms": {
+			"name": "__inference_Dataset_map_permutation_321",
+			"graph": "NOT_PRIMITIVE",
+			"inputs": "NOT_PRIMITIVE",
+			"outputs": "NOT_PRIMITIVE",
+			"attrs": "NOT_PRIMITIVE",
+			"overwrite": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/device.py": {
+		"is_device_spec": {
+			"obj": "/job:localhost/replica:0/task:0/device:CPU:0"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/numpy/core/numeric.py": {
+		"array_equal": {
+			"a1": "NOT_PRIMITIVE",
+			"a2": "NOT_PRIMITIVE",
+			"equal_nan": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/eager/execute.py": {
+		"make_shape": {
+			"v": "NOT_PRIMITIVE",
+			"arg_name": "output_shapes"
+		},
+		"make_bool": {
+			"v": false,
+			"arg_name": "is_files"
+		},
+		"make_str": {
+			"v": "NOT_PRIMITIVE",
+			"arg_name": "metadata"
+		},
+		"make_type": {
+			"v": "NOT_PRIMITIVE",
+			"arg_name": "output_types"
+		},
+		"make_int": {
+			"v": 0,
+			"arg_name": "batch_dims"
+		},
+		"quick_execute": {
+			"op_name": "__inference_predict_function_924",
+			"num_outputs": 1,
+			"inputs": "NOT_PRIMITIVE",
+			"attrs": "NOT_PRIMITIVE",
+			"ctx": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py": {
+		"gather_v2": {
+			"params": "NOT_PRIMITIVE",
+			"indices": "NOT_PRIMITIVE",
+			"validate_indices": "NOT_PRIMITIVE",
+			"axis": 0,
+			"batch_dims": 0,
+			"name": "NOT_PRIMITIVE"
+		},
+		"gather": {
+			"params": "NOT_PRIMITIVE",
+			"indices": "NOT_PRIMITIVE",
+			"validate_indices": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE",
+			"axis": 0,
+			"batch_dims": 0
+		},
+		"shape_internal": {
+			"input": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE",
+			"optimize": true,
+			"out_type": "NOT_PRIMITIVE"
+		},
+		"strided_slice": {
+			"input_": "NOT_PRIMITIVE",
+			"begin": "NOT_PRIMITIVE",
+			"end": "NOT_PRIMITIVE",
+			"strides": "NOT_PRIMITIVE",
+			"begin_mask": 0,
+			"end_mask": 1,
+			"ellipsis_mask": 0,
+			"new_axis_mask": 0,
+			"shrink_axis_mask": 0,
+			"var": "NOT_PRIMITIVE",
+			"name": "strided_slice/"
+		},
+		"concat": {
+			"values": "NOT_PRIMITIVE",
+			"axis": 0,
+			"name": "concat"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/util/tf_inspect.py": {
+		"getcallargs": {
+			"*args": [
+				"NOT_PRIMITIVE",
+				"NOT_PRIMITIVE",
+				"NOT_PRIMITIVE"
+			],
+			"validate_indices": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE",
+			"axis": 0,
+			"batch_dims": 0
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/ops/gen_array_ops.py": {
+		"gather_v2": {
+			"params": "NOT_PRIMITIVE",
+			"indices": "NOT_PRIMITIVE",
+			"axis": 0,
+			"batch_dims": 0,
+			"name": "NOT_PRIMITIVE"
+		},
+		"strided_slice": {
+			"input": "NOT_PRIMITIVE",
+			"begin": "NOT_PRIMITIVE",
+			"end": "NOT_PRIMITIVE",
+			"strides": "NOT_PRIMITIVE",
+			"begin_mask": 0,
+			"end_mask": 1,
+			"ellipsis_mask": 0,
+			"new_axis_mask": 0,
+			"shrink_axis_mask": 0,
+			"name": "strided_slice/"
+		},
+		"pack": {
+			"values": "NOT_PRIMITIVE",
+			"axis": 0,
+			"name": "stack"
+		},
+		"concat_v2": {
+			"values": "NOT_PRIMITIVE",
+			"axis": 0,
+			"name": "concat"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/ops/resource_variable_ops.py": {
+		"BaseResourceVariable._read_variable_op.<locals>.read_and_set_handle": {
+			"no_copy": false
+		},
+		"_UnreadVariable.assign": {
+			"self": "NOT_PRIMITIVE",
+			"value": 0,
+			"use_locking": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE",
+			"read_value": true
+		},
+		"_UnreadVariable.assign_add": {
+			"self": "NOT_PRIMITIVE",
+			"delta": 1,
+			"use_locking": "NOT_PRIMITIVE",
+			"name": "NOT_PRIMITIVE",
+			"read_value": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/trackable/data_structures.py": {
+		"sticky_attribute_assignment": {
+			"trackable": "NOT_PRIMITIVE",
+			"name": "history",
+			"value": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py": {
+		"function": {
+			"func": "NOT_PRIMITIVE",
+			"input_signature": "NOT_PRIMITIVE",
+			"autograph": true,
+			"jit_compile": "NOT_PRIMITIVE",
+			"reduce_retracing": true,
+			"experimental_implements": "NOT_PRIMITIVE",
+			"experimental_autograph_options": "NOT_PRIMITIVE",
+			"experimental_attributes": "NOT_PRIMITIVE",
+			"experimental_relax_shapes": "NOT_PRIMITIVE",
+			"experimental_compile": "NOT_PRIMITIVE",
+			"experimental_follow_type_hints": "NOT_PRIMITIVE"
+		},
+		"_FrequentTracingDetectorManager.called_with_tracing": {
+			"self": "NOT_PRIMITIVE",
+			"key": "NOT_PRIMITIVE",
+			"function_name": "NOT_PRIMITIVE",
+			"omit_warning": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/util/deprecation.py": {
+		"deprecated_argument_lookup": {
+			"new_name": "jit_compile",
+			"new_value": "NOT_PRIMITIVE",
+			"old_name": "experimental_compile",
+			"old_value": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/compat/compat.py": {
+		"forward_compatible": {
+			"year": 2022,
+			"month": 3,
+			"day": 23
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/ops/gen_resource_variable_ops.py": {
+		"assign_variable_op": {
+			"resource": "NOT_PRIMITIVE",
+			"value": "NOT_PRIMITIVE",
+			"validate_shape": true,
+			"name": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/device_spec.py": {
+		"DeviceSpecV2.from_string": {
+			"spec": "/job:localhost/replica:0/task:0/device:CPU:0"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/callbacks.py": {
+		"Callback.on_predict_batch_begin": {
+			"self": "NOT_PRIMITIVE",
+			"batch": 0,
+			"logs": "NOT_PRIMITIVE"
+		},
+		"Callback.on_predict_batch_end": {
+			"self": "NOT_PRIMITIVE",
+			"batch": 0,
+			"logs": "NOT_PRIMITIVE"
+		}
+	},
+	"/usr/lib/python3.8/linecache.py": {
+		"updatecache": {
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/engine/training.py",
+			"module_globals": "NOT_PRIMITIVE"
+		},
+		"checkcache": {
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/engine/training.py"
+		},
+		"getlines": {
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/engine/training.py",
+			"module_globals": "NOT_PRIMITIVE"
+		}
+	},
+	"/usr/lib/python3.8/tokenize.py": {
+		"open": {
+			"filename": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/engine/training.py"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/pyct/parser.py": {
+		"dedent_block": {
+			"code_string": "            def predict_function(iterator):\n                \"\"\"Runs an evaluation execution with a single step.\"\"\"\n                return step_function(self, iterator)\n"
+		},
+		"parse": {
+			"src": "def predict_function(iterator):\n    \"\"\"Runs an evaluation execution with a single step.\"\"\"\n    return step_function(self, iterator)\n",
+			"preamble_len": 0,
+			"single_node": true
+		},
+		"parse_expression": {
+			"src": "True"
+		},
+		"unparse": {
+			"node": "NOT_PRIMITIVE",
+			"indentation": "  ",
+			"include_encoding_marker": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/gast/gast.py": {
+		"parse": {
+			"*args": [
+				"def predict_function(iterator):\n    \"\"\"Runs an evaluation execution with a single step.\"\"\"\n    return step_function(self, iterator)\n"
+			]
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/pyct/origin_info.py": {
+		"resolve_entity": {
+			"node": "NOT_PRIMITIVE",
+			"source": "def predict_function(iterator):\n    \"\"\"Runs an evaluation execution with a single step.\"\"\"\n    return step_function(self, iterator)\n",
+			"entity": "NOT_PRIMITIVE"
+		},
+		"resolve": {
+			"node": "NOT_PRIMITIVE",
+			"source": "def predict_function(iterator):\n    \"\"\"Runs an evaluation execution with a single step.\"\"\"\n    return step_function(self, iterator)\n",
+			"context_filepath": "/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/engine/training.py",
+			"context_lineno": 2339,
+			"context_col_offset": 12
+		},
+		"create_source_map": {
+			"nodes": "NOT_PRIMITIVE",
+			"code": "# coding=utf-8\ndef outer_factory():\n    self = None\n    step_function = None\n\n    def inner_factory(ag__):\n\n        def tf__predict_function(iterator):\n            'Runs an evaluation execution with a single step.'\n            with ag__.FunctionScope('predict_function', 'fscope', ag__.ConversionOptions(recursive=True, user_requested=True, optional_features=(), internal_convert_user_code=True)) as fscope:\n                do_return = False\n                retval_ = ag__.UndefinedReturnValue()\n                try:\n                    do_return = True\n                    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)\n                except:\n                    do_return = False\n                    raise\n                return fscope.ret(retval_, do_return)\n        return tf__predict_function\n    return inner_factory",
+			"filepath": "/tmp/__autograph_generated_fileh2m586c3.py"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/pyct/anno.py": {
+		"setanno": {
+			"node": "NOT_PRIMITIVE",
+			"key": "lineno",
+			"value": 1,
+			"field_name": "___pyct_anno"
+		},
+		"hasanno": {
+			"node": "NOT_PRIMITIVE",
+			"key": "NOT_PRIMITIVE",
+			"field_name": "___pyct_anno"
+		},
+		"getanno": {
+			"node": "NOT_PRIMITIVE",
+			"key": "NOT_PRIMITIVE",
+			"default": "NOT_PRIMITIVE",
+			"field_name": "___pyct_anno"
+		},
+		"dup": {
+			"node": "NOT_PRIMITIVE",
+			"copy_map": "NOT_PRIMITIVE",
+			"field_name": "___pyct_anno"
+		},
+		"copyanno": {
+			"from_node": "NOT_PRIMITIVE",
+			"to_node": "NOT_PRIMITIVE",
+			"key": "NOT_PRIMITIVE",
+			"field_name": "___pyct_anno"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/pyct/naming.py": {
+		"Namer.new_symbol": {
+			"self": "NOT_PRIMITIVE",
+			"name_root": "tf__predict_function",
+			"reserved_locals": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/pyct/templates.py": {
+		"replace": {
+			"template": "\n      ag__.ConversionOptions(\n          recursive=recursive_val,\n          user_requested=user_requested_val,\n          optional_features=optional_features_val,\n          internal_convert_user_code=internal_convert_user_code_val)\n    ",
+			"recursive_val": "NOT_PRIMITIVE",
+			"user_requested_val": "NOT_PRIMITIVE",
+			"internal_convert_user_code_val": "NOT_PRIMITIVE",
+			"optional_features_val": "NOT_PRIMITIVE"
+		}
+	},
+	"/usr/lib/python3.8/textwrap.py": {
+		"dedent": {
+			"text": "\n      ag__.ConversionOptions(\n          recursive=recursive_val,\n          user_requested=user_requested_val,\n          optional_features=optional_features_val,\n          internal_convert_user_code=internal_convert_user_code_val)\n    "
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/converters/return_statements.py": {
+		"transform": {
+			"node": "NOT_PRIMITIVE",
+			"ctx": "NOT_PRIMITIVE",
+			"default_to_null_return": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/pyct/static_analysis/liveness.py": {
+		"resolve": {
+			"node": "NOT_PRIMITIVE",
+			"source_info": "NOT_PRIMITIVE",
+			"graphs": "NOT_PRIMITIVE",
+			"include_annotations": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/pyct/transpiler.py": {
+		"_PythonFnFactory.create": {
+			"self": "NOT_PRIMITIVE",
+			"nodes": "NOT_PRIMITIVE",
+			"namer": "NOT_PRIMITIVE",
+			"inner_factory_name": "inner_factory",
+			"outer_factory_name": "outer_factory",
+			"future_features": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/pyct/loader.py": {
+		"load_ast": {
+			"nodes": "NOT_PRIMITIVE",
+			"indentation": "  ",
+			"include_source_map": true,
+			"delete_on_exit": true
+		},
+		"load_source": {
+			"source": "# coding=utf-8\ndef outer_factory():\n    self = None\n    step_function = None\n\n    def inner_factory(ag__):\n\n        def tf__predict_function(iterator):\n            'Runs an evaluation execution with a single step.'\n            with ag__.FunctionScope('predict_function', 'fscope', ag__.ConversionOptions(recursive=True, user_requested=True, optional_features=(), internal_convert_user_code=True)) as fscope:\n                do_return = False\n                retval_ = ag__.UndefinedReturnValue()\n                try:\n                    do_return = True\n                    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)\n                except:\n                    do_return = False\n                    raise\n                return fscope.ret(retval_, do_return)\n        return tf__predict_function\n    return inner_factory",
+			"delete_on_exit": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/astunparse/unparser.py": {
+		"Unparser.write": {
+			"self": "NOT_PRIMITIVE",
+			"text": "\n"
+		},
+		"Unparser.fill": {
+			"self": "NOT_PRIMITIVE",
+			"text": "def outer_factory("
+		}
+	},
+	"/usr/lib/python3.8/tempfile.py": {
+		"NamedTemporaryFile": {
+			"mode": "w",
+			"buffering": -1,
+			"encoding": "utf-8",
+			"newline": "NOT_PRIMITIVE",
+			"suffix": ".py",
+			"prefix": "__autograph_generated_file",
+			"dir": "NOT_PRIMITIVE",
+			"delete": false,
+			"errors": "NOT_PRIMITIVE"
+		}
+	},
+	"/usr/lib/python3.8/random.py": {
+		"Random.choice": {
+			"self": "NOT_PRIMITIVE",
+			"seq": "abcdefghijklmnopqrstuvwxyz0123456789_"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/framework/traceable_stack.py": {
+		"TraceableStack.push_obj": {
+			"self": "NOT_PRIMITIVE",
+			"obj": "NOT_PRIMITIVE",
+			"offset": 4
+		},
+		"TraceableObject.set_filename_and_line_from_caller": {
+			"self": "NOT_PRIMITIVE",
+			"offset": 5
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/utils/layer_utils.py": {
+		"CallFunctionSpec.arg_was_passed": {
+			"self": "NOT_PRIMITIVE",
+			"arg_name": "mask",
+			"args": "NOT_PRIMITIVE",
+			"kwargs": "NOT_PRIMITIVE",
+			"inputs_in_args": false
+		},
+		"CallFunctionSpec.get_arg_value": {
+			"self": "NOT_PRIMITIVE",
+			"arg_name": "training",
+			"args": "NOT_PRIMITIVE",
+			"kwargs": "NOT_PRIMITIVE",
+			"inputs_in_args": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/engine/base_layer_utils.py": {
+		"CallContext.enter": {
+			"self": "NOT_PRIMITIVE",
+			"layer": "NOT_PRIMITIVE",
+			"inputs": "NOT_PRIMITIVE",
+			"build_graph": true,
+			"training": false,
+			"saving": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/engine/input_spec.py": {
+		"assert_input_compatibility": {
+			"input_spec": "NOT_PRIMITIVE",
+			"inputs": "NOT_PRIMITIVE",
+			"layer_name": "sequential"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/utils/traceback_utils.py": {
+		"inject_argument_info_in_traceback": {
+			"fn": "NOT_PRIMITIVE",
+			"object_name": "layer 'sequential' (type Sequential)"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/engine/sequential.py": {
+		"Sequential.call": {
+			"self": "NOT_PRIMITIVE",
+			"inputs": "NOT_PRIMITIVE",
+			"training": false,
+			"mask": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/ops/nn_ops.py": {
+		"convolution_v2": {
+			"input": "NOT_PRIMITIVE",
+			"filters": "NOT_PRIMITIVE",
+			"strides": "NOT_PRIMITIVE",
+			"padding": "VALID",
+			"data_format": "NHWC",
+			"dilations": "NOT_PRIMITIVE",
+			"name": "Conv2D"
+		},
+		"convolution_internal": {
+			"input": "NOT_PRIMITIVE",
+			"filters": "NOT_PRIMITIVE",
+			"strides": "NOT_PRIMITIVE",
+			"padding": "VALID",
+			"data_format": "NHWC",
+			"dilations": "NOT_PRIMITIVE",
+			"name": "Conv2D",
+			"call_from_convolution": true,
+			"num_spatial_dims": "NOT_PRIMITIVE"
+		},
+		"bias_add": {
+			"value": "NOT_PRIMITIVE",
+			"bias": "NOT_PRIMITIVE",
+			"data_format": "NHWC",
+			"name": "NOT_PRIMITIVE"
+		},
+		"max_pool": {
+			"value": "NOT_PRIMITIVE",
+			"ksize": "NOT_PRIMITIVE",
+			"strides": "NOT_PRIMITIVE",
+			"padding": "VALID",
+			"data_format": "NHWC",
+			"name": "NOT_PRIMITIVE",
+			"input": "NOT_PRIMITIVE"
+		},
+		"convert_padding": {
+			"padding": "VALID",
+			"expected_length": 4
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/ops/gen_nn_ops.py": {
+		"conv2d": {
+			"input": "NOT_PRIMITIVE",
+			"filter": "NOT_PRIMITIVE",
+			"strides": "NOT_PRIMITIVE",
+			"padding": "VALID",
+			"use_cudnn_on_gpu": true,
+			"explicit_paddings": "NOT_PRIMITIVE",
+			"data_format": "NHWC",
+			"dilations": "NOT_PRIMITIVE",
+			"name": "sequential/conv2d/Conv2D/"
+		},
+		"bias_add": {
+			"value": "NOT_PRIMITIVE",
+			"bias": "NOT_PRIMITIVE",
+			"data_format": "NHWC",
+			"name": "sequential/conv2d/BiasAdd/"
+		},
+		"max_pool": {
+			"input": "NOT_PRIMITIVE",
+			"ksize": "NOT_PRIMITIVE",
+			"strides": "NOT_PRIMITIVE",
+			"padding": "VALID",
+			"explicit_paddings": "NOT_PRIMITIVE",
+			"data_format": "NHWC",
+			"name": "sequential/max_pooling2d/MaxPool/"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/core/function/capture/capture_container.py": {
+		"FunctionCaptures.add_or_replace": {
+			"self": "NOT_PRIMITIVE",
+			"key": 140652924161184,
+			"external": "NOT_PRIMITIVE",
+			"internal": "NOT_PRIMITIVE",
+			"tracetype": "NOT_PRIMITIVE",
+			"is_by_ref": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/eager/record.py": {
+		"record_operation": {
+			"op_type": "captured_value",
+			"output_tensors": "NOT_PRIMITIVE",
+			"input_tensors": "NOT_PRIMITIVE",
+			"backward_function": "NOT_PRIMITIVE",
+			"forward_function": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/utils/conv_utils.py": {
+		"conv_output_length": {
+			"input_length": 28,
+			"filter_size": 3,
+			"padding": "valid",
+			"stride": 1,
+			"dilation": 1
+		},
+		"convert_data_format": {
+			"data_format": "channels_last",
+			"ndim": 4
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/activations.py": {
+		"relu": {
+			"x": "NOT_PRIMITIVE",
+			"alpha": 0.0,
+			"max_value": "NOT_PRIMITIVE",
+			"threshold": 0.0
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/backend.py": {
+		"relu": {
+			"x": "NOT_PRIMITIVE",
+			"alpha": 0.0,
+			"max_value": "NOT_PRIMITIVE",
+			"threshold": 0.0
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/ops/gen_math_ops.py": {
+		"mat_mul": {
+			"a": "NOT_PRIMITIVE",
+			"b": "NOT_PRIMITIVE",
+			"transpose_a": false,
+			"transpose_b": false,
+			"name": "sequential/dense/MatMul/"
+		},
+		"equal": {
+			"x": "NOT_PRIMITIVE",
+			"y": "NOT_PRIMITIVE",
+			"incompatible_shape_error": false,
+			"name": "NOT_PRIMITIVE"
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/autograph/core/function_wrappers.py": {
+		"FunctionScope.ret": {
+			"self": "NOT_PRIMITIVE",
+			"value": "NOT_PRIMITIVE",
+			"did_return": true
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/profiler/trace.py": {
+		"Trace.set_metadata": {
+			"self": "NOT_PRIMITIVE",
+			"tf_function_call": "traced-nonXla",
+			"tracing_count": 1
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/utils/generic_utils.py": {
+		"Progbar.update": {
+			"self": "NOT_PRIMITIVE",
+			"current": 1,
+			"values": "NOT_PRIMITIVE",
+			"finalize": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/keras/src/utils/io_utils.py": {
+		"print_msg": {
+			"message": "\r  1/313 [..............................] - ETA: 125:02:40",
+			"line_break": false
+		}
+	},
+	"/home/soslab/.local/share/virtualenvs/pyct-coverage-EPx3YN1-/lib/python3.8/site-packages/tensorflow/python/ops/array_ops_stack.py": {
+		"stack": {
+			"values": "NOT_PRIMITIVE",
+			"axis": 0,
+			"name": "stack"
+		}
+	}
+}
